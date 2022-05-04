@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651413027381' stop='1651413087414'>
+    <name>The Automation Practice Website: As a user,i want to create an account</name>
+    <title>The Automation Practice Website: As a user,i want to create an account</title>
+    <test-cases>
+        <test-case start='1651413027381' status='passed' stop='1651413027382'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651413027382' status='broken' stop='1651413087396'>
+            <name>Given I open the browser and load the url "http://automationpractice.com/index.php"</name>
+            <title>Given I open the browser and load the url "http://automationpractice.com/index.php"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651413027384' status='broken' stop='1651413087396'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='49b9cf76-12a3-4263-bdfe-f19b2740e446-attachment.json' type='application/json' size='77'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 60000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 60000 milliseconds
+                    at Timeout.&lt;anonymous> (C:\Users\HP\Desktop\AutomationDemoProject\node_modules\@cucumber\cucumber\src\time.ts:53:14)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651413087397' status='broken' stop='1651413087407'>
+            <name>Then i should see http://automationpractice.com/index.php?controller=my-account link displayed on page</name>
+            <title>Then i should see http://automationpractice.com/index.php?controller=my-account link displayed on page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "i should see http://automationpractice.com/index.php?controller=my-account link displayed on page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "i should see http://automationpractice.com/index.php?controller=my-account link displayed on page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\HP\Desktop\AutomationDemoProject\features\home.feature):1:1
+                	at Scenario(As a user,i want to create an account):15:5
+                	at Step(i should see &lt;signin> link displayed on page):16:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651413087407' status='passed' stop='1651413087413'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

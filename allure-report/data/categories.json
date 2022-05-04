@@ -1,0 +1,376 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "children" : [ {
+        "name" : "Given I open the browser and load the url <homepage>",
+        "uid" : "8f4e41b851c29674",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651341613285,
+          "stop" : 1651341673353,
+          "duration" : 60068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Given I open the browser and load the url <homepage>",
+        "uid" : "c38ad1e5351e6ba2",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651411995336,
+          "stop" : 1651412055345,
+          "duration" : 60009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Given I open the browser and load the url \"http://automationpractice.com/index.php\"",
+        "uid" : "25b5e835b8f585a8",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651412967331,
+          "stop" : 1651413027357,
+          "duration" : 60026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Given I open the browser and load the url \"http://automationpractice.com/index.php\"",
+        "uid" : "f8ba27d44efe4887",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651413027382,
+          "stop" : 1651413087396,
+          "duration" : 60014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Given I open the browser and load the url <homepage>",
+        "uid" : "6f3d555f6f319620",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651413743838,
+          "stop" : 1651413803918,
+          "duration" : 60080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "e639a9ad30ef63977eb12890cdf17798"
+    }, {
+      "name" : "Step \"i should succesfully  navigate to createaccountpage\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "Then i should succesfully  navigate to createaccountpage",
+        "uid" : "c7af7205b09c9ea0",
+        "parentUid" : "6bbfcdfe248df2080ba3fde298d8b003",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651411393516,
+          "stop" : 1651411393517,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "6bbfcdfe248df2080ba3fde298d8b003"
+    }, {
+      "name" : "Step \"i should see http://automationpractice.com/index.php?controller=my-account link displayed on page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "Then i should see http://automationpractice.com/index.php?controller=my-account link displayed on page",
+        "uid" : "2fda6baed1967334",
+        "parentUid" : "9e2414f192817552e19ac8a802c0e862",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651413087397,
+          "stop" : 1651413087407,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "9e2414f192817552e19ac8a802c0e862"
+    }, {
+      "name" : "TypeError: signin.click is not a function",
+      "children" : [ {
+        "name" : "When i click on sign in http://automationpractice.com/index.php?controller=my-account  link",
+        "uid" : "10828cb5e7a62c23",
+        "parentUid" : "f2fedf8fbb8967d5301cede62f900bab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651415676827,
+          "stop" : 1651415676866,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "f2fedf8fbb8967d5301cede62f900bab"
+    }, {
+      "name" : "Error: Can't call setValue on element with selector \"[name=customer_firstname]\" because element wasn't found",
+      "children" : [ {
+        "name" : "And i enter first name neha and last name wadkar",
+        "uid" : "3998bbdb105dec7d",
+        "parentUid" : "47994dd45cb68fe76458f553c1cacad0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651476472145,
+          "stop" : 1651476482241,
+          "duration" : 10096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "As a user, I want to login to this website,register account and validate details on landing page",
+        "uid" : "a5e6f40c8187b90e",
+        "parentUid" : "47994dd45cb68fe76458f553c1cacad0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651588860966,
+          "stop" : 1651588883389,
+          "duration" : 22423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "47994dd45cb68fe76458f553c1cacad0"
+    }, {
+      "name" : "Step \"i address section\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "Then i address section",
+        "uid" : "684b883e61473b8a",
+        "parentUid" : "b1dbd14eff03c2a9f45b02c41a50b6d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651482492004,
+          "stop" : 1651482492006,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "b1dbd14eff03c2a9f45b02c41a50b6d7"
+    }, {
+      "name" : "Step \"i log in to the Website with username testuser1.04.22@gmail.com and password TestUser@1234\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "Given i log in to the Website with username testuser1.04.22@gmail.com and password TestUser@1234",
+        "uid" : "981484bde5850ff3",
+        "parentUid" : "520b42094a92b35b5a00fb6874cc7ff1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651516690825,
+          "stop" : 1651516690827,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "520b42094a92b35b5a00fb6874cc7ff1"
+    }, {
+      "name" : "Step \"i click on the dress to purchase\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "When i click on the dress to purchase",
+        "uid" : "cf9300fce3e277b2",
+        "parentUid" : "a93dc8aaeb556f7e1d73164063b0e439",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651565890521,
+          "stop" : 1651565890523,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "a93dc8aaeb556f7e1d73164063b0e439"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toEqual(expected) // deep equality",
+      "children" : [ {
+        "name" : "Then I should see a header message with text Automation Practice Websit",
+        "uid" : "d95d5f7a08a54009",
+        "parentUid" : "62bc44b61f063177e0e09987a60195d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651343701820,
+          "stop" : 1651343702042,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Then i should see header with text Create an account displayed on current page",
+        "uid" : "1cdcfb52f1cd3e6d",
+        "parentUid" : "62bc44b61f063177e0e09987a60195d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651417696865,
+          "stop" : 1651417700145,
+          "duration" : 3280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Then i should successfully navigate to create account page , should see heading Create an account",
+        "uid" : "248d1b8eeaedf54a",
+        "parentUid" : "62bc44b61f063177e0e09987a60195d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651421880836,
+          "stop" : 1651421881067,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Then I should see a header with text \"Create an account\"",
+        "uid" : "6db2f83f7540a72c",
+        "parentUid" : "62bc44b61f063177e0e09987a60195d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651469551109,
+          "stop" : 1651469551172,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "62bc44b61f063177e0e09987a60195d9"
+    }, {
+      "name" : "Error: Expect $(`//*[@class=\"box\"]/h3`) to have text",
+      "children" : [ {
+        "name" : "Then i should see a header with text \"\" displayed on current page",
+        "uid" : "4fcb638793c23f04",
+        "parentUid" : "e40d45d2ffb5a43a883967e802b05c70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651510193093,
+          "stop" : 1651510203195,
+          "duration" : 10102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      }, {
+        "name" : "Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page",
+        "uid" : "4b324eb878f9d110",
+        "parentUid" : "e40d45d2ffb5a43a883967e802b05c70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651510312749,
+          "stop" : 1651510322848,
+          "duration" : 10099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.41" ]
+      } ],
+      "uid" : "e40d45d2ffb5a43a883967e802b05c70"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "ca271c74a5fc427b",
+  "name" : "And i enter valid email address testuser1.04.23@gmail.com",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.And i enter valid email address testuser1.04.23@gmail.com",
+  "historyId" : "8d954df70fab7fc90813b4f2aa56303c",
+  "time" : {
+    "start" : 1651477805984,
+    "stop" : 1651477805986,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"i enter valid email address testuser1.04.23@gmail.com\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"i enter valid email address testuser1.04.23@gmail.com\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\register.feature):1:1\n                \tat Scenario(As a user, I want to login to this website and register):3:5\n                \tat Step(i enter valid email address <emailaddress>):7:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "And i enter valid email address testuser1.04.23@gmail.com"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca271c74a5fc427b.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

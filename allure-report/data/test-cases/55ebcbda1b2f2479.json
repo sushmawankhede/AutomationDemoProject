@@ -1,0 +1,213 @@
+{
+  "uid" : "55ebcbda1b2f2479",
+  "name" : "When i select the dress Printed Chiffon Dress and click on add to cart",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i select the dress Printed Chiffon Dress and click on add to cart",
+  "historyId" : "d35d2657c28ceabb5be817d7ad182d42",
+  "time" : {
+    "start" : 1651570245230,
+    "stop" : 1651570275444,
+    "duration" : 30214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "move target out of bounds: move target out of bounds",
+  "statusTrace" : "move target out of bounds: move target out of bounds\n                  (Session info: chrome=101.0.4951.41)\n                    at getErrorFromResponseBody (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "move target out of bounds: move target out of bounds",
+    "statusTrace" : "move target out of bounds: move target out of bounds\n                  (Session info: chrome=101.0.4951.41)\n                    at getErrorFromResponseBody (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651570245232,
+        "stop" : 1651570245270,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f55044a21d8d7f13",
+        "name" : "Request",
+        "source" : "f55044a21d8d7f13.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "754023e442bc4870",
+        "name" : "Response",
+        "source" : "754023e442bc4870.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/59d0f130-1d6f-42e2-bc24-cf171a06f10e/click",
+      "time" : {
+        "start" : 1651570245274,
+        "stop" : 1651570248155,
+        "duration" : 2881
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651570275276,
+        "stop" : 1651570275320,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1784f571fafbb5d",
+        "name" : "Request",
+        "source" : "e1784f571fafbb5d.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "34ad59c6d66bb47a",
+        "name" : "Response",
+        "source" : "34ad59c6d66bb47a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/becd6fad-623d-498e-8932-a70de2ea21d3/rect",
+      "time" : {
+        "start" : 1651570275327,
+        "stop" : 1651570275347,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18623286b0a1c414",
+        "name" : "Response",
+        "source" : "18623286b0a1c414.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1651570275348,
+        "stop" : 1651570275367,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6b0a3094a1a6a8f",
+        "name" : "Request",
+        "source" : "a6b0a3094a1a6a8f.json",
+        "type" : "application/json",
+        "size" : 158
+      }, {
+        "uid" : "cedd7faaa84af844",
+        "name" : "Response",
+        "source" : "cedd7faaa84af844.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1651570275368,
+        "stop" : 1651570275444,
+        "duration" : 76
+      },
+      "status" : "broken",
+      "statusMessage" : "move target out of bounds: move target out of bounds\n                  (Session info: chrome=101.0.4951.41)\n                    at getErrorFromResponseBody (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "644fc88150cf5efc",
+        "name" : "Request",
+        "source" : "644fc88150cf5efc.json",
+        "type" : "application/json",
+        "size" : 288
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i select the dress Printed Chiffon Dress and click on add to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55ebcbda1b2f2479.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

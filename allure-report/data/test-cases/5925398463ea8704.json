@@ -1,0 +1,112 @@
+{
+  "uid" : "5925398463ea8704",
+  "name" : "When i click on sign in link",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.When i click on sign in link",
+  "historyId" : "a2f14b7173670b2088c9f1e14cba24a",
+  "time" : {
+    "start" : 1651509925933,
+    "stop" : 1651509928192,
+    "duration" : 2259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651509925936,
+        "stop" : 1651509925962,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ee4ec359675cd7e",
+        "name" : "Request",
+        "source" : "5ee4ec359675cd7e.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "1ee1729bfe9328c0",
+        "name" : "Response",
+        "source" : "1ee1729bfe9328c0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/856adce6-826a-4865-84be-8d116bf0f9d6/click",
+      "time" : {
+        "start" : 1651509925968,
+        "stop" : 1651509928191,
+        "duration" : 2223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i click on sign in link"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5925398463ea8704.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

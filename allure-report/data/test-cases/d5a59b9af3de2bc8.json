@@ -1,0 +1,122 @@
+{
+  "uid" : "d5a59b9af3de2bc8",
+  "name" : "Then i should see header with text Create an account displayed on current page",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.Then i should see header with text Create an account displayed on current page",
+  "historyId" : "bcac3448a6e39446fa0565852a1b1e3a",
+  "time" : {
+    "start" : 1651416714145,
+    "stop" : 1651416717181,
+    "duration" : 3036
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Create an account\"\n                Received: \"CREATE AN ACCOUNT\"\n                    at World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\home.steps.ts:26:52)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Create an account\"\n                Received: \"CREATE AN ACCOUNT\"\n                    at World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\home.steps.ts:26:52)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651416714147,
+        "stop" : 1651416717118,
+        "duration" : 2971
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd0aa99c6dd53cc8",
+        "name" : "Request",
+        "source" : "fd0aa99c6dd53cc8.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/18b22a36-c0ef-44aa-9481-2d7673981dc3/text",
+      "time" : {
+        "start" : 1651416717144,
+        "stop" : 1651416717168,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1a30467d4b82211",
+        "name" : "Response",
+        "source" : "a1a30467d4b82211.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "44e7dbc86c3187d1",
+      "name" : "Response",
+      "source" : "44e7dbc86c3187d1.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see header with text Create an account displayed on current page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5a59b9af3de2bc8.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

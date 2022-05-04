@@ -1,0 +1,118 @@
+{
+  "uid" : "8c61f584e54fc71d",
+  "name" : "When i click on the dresses menu",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i click on the dresses menu",
+  "historyId" : "80a4d2817028a5fba268d9a5f7b3e97f",
+  "time" : {
+    "start" : 1651554801696,
+    "stop" : 1651554806788,
+    "duration" : 5092
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651554806703,
+        "stop" : 1651554806776,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "714f8ed79b3cc014",
+        "name" : "Request",
+        "source" : "714f8ed79b3cc014.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "cde789769a8206e9",
+        "name" : "Response",
+        "source" : "cde789769a8206e9.json",
+        "type" : "application/json",
+        "size" : 1020
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651554806783,
+        "stop" : 0,
+        "duration" : -1651554806783
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e539041ba83a59d",
+        "name" : "Request",
+        "source" : "5e539041ba83a59d.json",
+        "type" : "application/json",
+        "size" : 48
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i click on the dresses menu"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c61f584e54fc71d.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

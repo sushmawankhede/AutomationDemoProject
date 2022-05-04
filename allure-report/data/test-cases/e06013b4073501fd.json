@@ -1,0 +1,133 @@
+{
+  "uid" : "e06013b4073501fd",
+  "name" : "And i enter password TestUser@12345",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.And i enter password TestUser@12345",
+  "historyId" : "8550e3879ae350e54ba0a416970a133f",
+  "time" : {
+    "start" : 1651488481206,
+    "stop" : 1651488481649,
+    "duration" : 443
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651488481209,
+        "stop" : 1651488481252,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ebf46ed908636d2",
+        "name" : "Request",
+        "source" : "1ebf46ed908636d2.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "1ada1a314c874302",
+        "name" : "Response",
+        "source" : "1ada1a314c874302.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/aa23c3c3-8b7f-4c86-bd22-b023264951be/clear",
+      "time" : {
+        "start" : 1651488481256,
+        "stop" : 1651488481389,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/aa23c3c3-8b7f-4c86-bd22-b023264951be/value",
+      "time" : {
+        "start" : 1651488481390,
+        "stop" : 1651488481648,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e05399224f127a1e",
+        "name" : "Request",
+        "source" : "e05399224f127a1e.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "And i enter password TestUser@12345"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e06013b4073501fd.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

@@ -1,0 +1,191 @@
+{
+  "uid" : "248d1b8eeaedf54a",
+  "name" : "Then i should successfully navigate to create account page , should see heading Create an account",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.Then i should successfully navigate to create account page , should see heading Create an account",
+  "historyId" : "b252f332e08ef0eb99d1753d6d115fb1",
+  "time" : {
+    "start" : 1651421880836,
+    "stop" : 1651421881067,
+    "duration" : 231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Create an account\"\n                Received: \"AUTHENTICATION\"\n                    at World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\home.steps.ts:41:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toEqual(expected) // deep equality",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Create an account\"\n                Received: \"AUTHENTICATION\"\n                    at World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\home.steps.ts:41:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651421880839,
+        "stop" : 1651421880866,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c89161aed5d540f",
+        "name" : "Request",
+        "source" : "4c89161aed5d540f.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "497ac06b22672ed2",
+        "name" : "Response",
+        "source" : "497ac06b22672ed2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/0b85f043-c9af-4fae-ac9b-7eb961208df0/click",
+      "time" : {
+        "start" : 1651421880877,
+        "stop" : 1651421880892,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc63e74f22ba66f8",
+        "name" : "Response",
+        "source" : "fc63e74f22ba66f8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/62883ef5-8986-4590-8694-13f4eeff95ec/text",
+      "time" : {
+        "start" : 1651421880898,
+        "stop" : 1651421881049,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/element/6a40379c-d1bf-4fd4-b8fe-2e309abe0e25/text",
+        "time" : {
+          "start" : 1651421880994,
+          "stop" : 1651421881025,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "19f94cc5151a0ee0",
+        "name" : "Response",
+        "source" : "19f94cc5151a0ee0.json",
+        "type" : "application/json",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should successfully navigate to create account page , should see heading Create an account"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "120889be93954e6d",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality",
+      "time" : {
+        "start" : 1651421763601,
+        "stop" : 1651421763809,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "6ea1c0fd2f2d0d83",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality",
+      "time" : {
+        "start" : 1651421673872,
+        "stop" : 1651421674074,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "d40e731bc1315690",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//*[@id=\"create-account_form\"]/h3`) to have text",
+      "time" : {
+        "start" : 1651421515624,
+        "stop" : 1651421525326,
+        "duration" : 9702
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "248d1b8eeaedf54a.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

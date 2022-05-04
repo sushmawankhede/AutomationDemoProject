@@ -1,0 +1,118 @@
+{
+  "uid" : "eaef7a6d6a3b0c10",
+  "name" : "Then i should see sign in http://automationpractice.com/index.php?controller=my-account link displayed on page",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.Then i should see sign in http://automationpractice.com/index.php?controller=my-account link displayed on page",
+  "historyId" : "f8bc3027ef8fd63a913cfa81ec407c5e",
+  "time" : {
+    "start" : 1651510144844,
+    "stop" : 1651510144942,
+    "duration" : 98
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651510144847,
+        "stop" : 1651510144912,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2dd10ac2c6f1a621",
+        "name" : "Request",
+        "source" : "2dd10ac2c6f1a621.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "a5d5d6e72f420204",
+        "name" : "Response",
+        "source" : "a5d5d6e72f420204.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/0a68502c-ae05-498e-99d4-7796615fa1ae/attribute/href",
+      "time" : {
+        "start" : 1651510144920,
+        "stop" : 1651510144938,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96c519b0972241b0",
+        "name" : "Response",
+        "source" : "96c519b0972241b0.json",
+        "type" : "application/json",
+        "size" : 63
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see sign in http://automationpractice.com/index.php?controller=my-account link displayed on page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eaef7a6d6a3b0c10.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

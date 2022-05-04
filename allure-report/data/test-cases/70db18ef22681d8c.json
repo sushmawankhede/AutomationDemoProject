@@ -1,0 +1,206 @@
+{
+  "uid" : "70db18ef22681d8c",
+  "name" : "When i select the dress Printed Chiffon Dress and click on add to cart",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i select the dress Printed Chiffon Dress and click on add to cart",
+  "historyId" : "d35d2657c28ceabb5be817d7ad182d42",
+  "time" : {
+    "start" : 1651574663535,
+    "stop" : 1651574723582,
+    "duration" : 60047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+    "statusTrace" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651574663537,
+        "stop" : 1651574666319,
+        "duration" : 2782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a99c0a21bdccb7bc",
+        "name" : "Request",
+        "source" : "a99c0a21bdccb7bc.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element/3a7c47e2-a1ab-4f19-a522-58763cec272d/clear",
+      "time" : {
+        "start" : 1651574666345,
+        "stop" : 1651574666439,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/3a7c47e2-a1ab-4f19-a522-58763cec272d/value",
+      "time" : {
+        "start" : 1651574666441,
+        "stop" : 1651574666602,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "511519538325336c",
+        "name" : "Request",
+        "source" : "511519538325336c.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651574668353,
+        "stop" : 1651574668411,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8a2ea7a95243d81",
+        "name" : "Request",
+        "source" : "c8a2ea7a95243d81.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "5c1f443dd2f3c816",
+        "name" : "Response",
+        "source" : "5c1f443dd2f3c816.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/16a72a8a-3833-47f4-9f79-8e487d7ab38c/click",
+      "time" : {
+        "start" : 1651574668415,
+        "stop" : 1651574675097,
+        "duration" : 6682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651574698426,
+        "stop" : 1651574698521,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ada6ce5225b43bc7",
+        "name" : "Request",
+        "source" : "ada6ce5225b43bc7.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "78cc7a87b9ecc4cb",
+        "name" : "Response",
+        "source" : "78cc7a87b9ecc4cb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "5dcdf59df5368f21",
+      "name" : "Response",
+      "source" : "5dcdf59df5368f21.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i select the dress Printed Chiffon Dress and click on add to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70db18ef22681d8c.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

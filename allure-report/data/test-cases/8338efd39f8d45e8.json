@@ -1,0 +1,224 @@
+{
+  "uid" : "8338efd39f8d45e8",
+  "name" : "Then i should see sign in http://automationpractice.com/index.php?controller=my-account link displayed on page",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.Then i should see sign in http://automationpractice.com/index.php?controller=my-account link displayed on page",
+  "historyId" : "99d047d5c7d47b4987b47ddee1940c8b",
+  "time" : {
+    "start" : 1651420853683,
+    "stop" : 1651420853760,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651420853686,
+        "stop" : 1651420853737,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "583e73d021e44191",
+        "name" : "Request",
+        "source" : "583e73d021e44191.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "940a7629eb431090",
+        "name" : "Response",
+        "source" : "940a7629eb431090.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/3273f57a-1503-4792-adc5-2b10b2503208/attribute/href",
+      "time" : {
+        "start" : 1651420853746,
+        "stop" : 1651420853758,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "deb03b95ae8820e2",
+        "name" : "Response",
+        "source" : "deb03b95ae8820e2.json",
+        "type" : "application/json",
+        "size" : 63
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see sign in http://automationpractice.com/index.php?controller=my-account link displayed on page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a613166cf727e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420823621,
+        "stop" : 1651420823697,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "b21ac47725b949fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420600967,
+        "stop" : 1651420601041,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "a053ecd8a4751eca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420506007,
+        "stop" : 1651420506086,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "a012fc893af70bfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420038343,
+        "stop" : 1651420038426,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "85a21308aa7cd6a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651419909360,
+        "stop" : 1651419909432,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "d6fca916ac831cbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651418007849,
+        "stop" : 1651418007896,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "baf9ee2a2dc5a215",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417929755,
+        "stop" : 1651417929843,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "4699be625c87bf17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417696782,
+        "stop" : 1651417696830,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "5a43c48d01708cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417104512,
+        "stop" : 1651417104607,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "794b2f24b0434f2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651416714012,
+        "stop" : 1651416714107,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "da6e593bd0fc6047",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651415924710,
+        "stop" : 1651415924772,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "ab1b7c923c6002a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651415676746,
+        "stop" : 1651415676827,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "8db5c1972e19c189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651415344361,
+        "stop" : 1651415344409,
+        "duration" : 48
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8338efd39f8d45e8.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

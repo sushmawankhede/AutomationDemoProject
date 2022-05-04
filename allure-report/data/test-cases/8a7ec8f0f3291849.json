@@ -1,0 +1,150 @@
+{
+  "uid" : "8a7ec8f0f3291849",
+  "name" : "When i select the dress Printed Summer Dress and click on add to cart",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i select the dress Printed Summer Dress and click on add to cart",
+  "historyId" : "c4579a44097747eb86a30095352b1282",
+  "time" : {
+    "start" : 1651567060615,
+    "stop" : 1651567080702,
+    "duration" : 20087
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651567070634,
+        "stop" : 1651567070689,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59789bf114bfe652",
+        "name" : "Request",
+        "source" : "59789bf114bfe652.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "c352c0920ec47b15",
+        "name" : "Response",
+        "source" : "c352c0920ec47b15.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i select the dress Printed Summer Dress and click on add to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d38b085b927621fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566993610,
+        "stop" : 1651567003677,
+        "duration" : 10067
+      }
+    }, {
+      "uid" : "2339f22f231294cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566935651,
+        "stop" : 1651566945742,
+        "duration" : 10091
+      }
+    }, {
+      "uid" : "fd84c704d5cbb04",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //*[@class=replace-2x img-responsive] because of the following error:",
+      "time" : {
+        "start" : 1651566856487,
+        "stop" : 1651566866633,
+        "duration" : 10146
+      }
+    }, {
+      "uid" : "6bdf350d76b7943c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651566745354,
+        "stop" : 0,
+        "duration" : -1651566745354
+      }
+    }, {
+      "uid" : "25a51b76af0acc32",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //*[@class=replace-2x img-responsive] because of the following error:",
+      "time" : {
+        "start" : 1651566118283,
+        "stop" : 1651566128438,
+        "duration" : 10155
+      }
+    }, {
+      "uid" : "fda2d8dc886b27fd",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //img[@class=replace-2x img-responsive] because of the following error:",
+      "time" : {
+        "start" : 1651566018452,
+        "stop" : 1651566028571,
+        "duration" : 10119
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a7ec8f0f3291849.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

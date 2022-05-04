@@ -1,0 +1,96 @@
+{
+  "uid" : "bf01dff3da7cb549",
+  "name" : "Given I open the browser and load the url \"http://automationpractice.com/index.php\"",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website.Given I open the browser and load the url \"http://automationpractice.com/index.php\"",
+  "historyId" : "61ef79aea35a3d4ea1ad1206b3422242",
+  "time" : {
+    "start" : 1651412234141,
+    "stop" : 1651412294172,
+    "duration" : 60031
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+    "statusTrace" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1651412234146,
+        "stop" : 1651412294172,
+        "duration" : 60026
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:53:14)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b8c4a50a852c937",
+        "name" : "Request",
+        "source" : "1b8c4a50a852c937.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the browser and load the url \"http://automationpractice.com/index.php\""
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf01dff3da7cb549.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

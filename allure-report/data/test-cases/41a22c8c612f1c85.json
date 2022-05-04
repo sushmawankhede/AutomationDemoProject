@@ -1,0 +1,133 @@
+{
+  "uid" : "41a22c8c612f1c85",
+  "name" : "And i enter valid mobile number +1-9737896555",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.And i enter valid mobile number +1-9737896555",
+  "historyId" : "6eab3c57c73af7bfc1abeb35b9cdeefa",
+  "time" : {
+    "start" : 1651489631578,
+    "stop" : 1651489631848,
+    "duration" : 270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651489631579,
+        "stop" : 1651489631612,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "759f91243d1ec085",
+        "name" : "Request",
+        "source" : "759f91243d1ec085.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "9f01641ca68d8fa",
+        "name" : "Response",
+        "source" : "9f01641ca68d8fa.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/2d178979-cf12-4134-9fa2-646d46a22bf1/clear",
+      "time" : {
+        "start" : 1651489631616,
+        "stop" : 1651489631686,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/2d178979-cf12-4134-9fa2-646d46a22bf1/value",
+      "time" : {
+        "start" : 1651489631687,
+        "stop" : 1651489631848,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffd3eb5e22475f0d",
+        "name" : "Request",
+        "source" : "ffd3eb5e22475f0d.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "And i enter valid mobile number +1-9737896555"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41a22c8c612f1c85.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

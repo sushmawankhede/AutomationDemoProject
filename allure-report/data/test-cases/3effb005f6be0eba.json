@@ -1,0 +1,123 @@
+{
+  "uid" : "3effb005f6be0eba",
+  "name" : "When i select the dress Printed Chiffon Dress and click on add to cart",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i select the dress Printed Chiffon Dress and click on add to cart",
+  "historyId" : "d35d2657c28ceabb5be817d7ad182d42",
+  "time" : {
+    "start" : 1651567637479,
+    "stop" : 1651567647653,
+    "duration" : 10174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: invalid selector: An invalid or illegal selector was specified",
+  "statusTrace" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=101.0.4951.41)\n                    at getErrorFromResponseBody (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Browser.$ (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:17)\n                    at async Browser.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\addproduct.steps.ts:49:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: invalid selector: An invalid or illegal selector was specified",
+    "statusTrace" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=101.0.4951.41)\n                    at getErrorFromResponseBody (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Browser.$ (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:17)\n                    at async Browser.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\addproduct.steps.ts:49:21)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651567647490,
+        "stop" : 1651567647557,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "276ffd67804191cb",
+        "name" : "Request",
+        "source" : "276ffd67804191cb.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "f47cc6a4b6219daf",
+        "name" : "Response",
+        "source" : "f47cc6a4b6219daf.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651567647564,
+        "stop" : 1651567647653,
+        "duration" : 89
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=101.0.4951.41)\n                    at getErrorFromResponseBody (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Browser.$ (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:91:17)\n                    at async Browser.wrapCommandFn (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\addproduct.steps.ts:49:21)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b76227b907af990d",
+        "name" : "Request",
+        "source" : "b76227b907af990d.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i select the dress Printed Chiffon Dress and click on add to cart"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3effb005f6be0eba.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

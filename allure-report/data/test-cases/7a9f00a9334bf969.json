@@ -1,0 +1,118 @@
+{
+  "uid" : "7a9f00a9334bf969",
+  "name" : "Then i should see a header with text CREATE AN ACCOUNT displayed on current page",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.Then i should see a header with text CREATE AN ACCOUNT displayed on current page",
+  "historyId" : "abda17c5f81091f3966451092597b4fd",
+  "time" : {
+    "start" : 1651510392791,
+    "stop" : 1651510392887,
+    "duration" : 96
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651510392793,
+        "stop" : 1651510392835,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f65cc6670b00b09",
+        "name" : "Request",
+        "source" : "7f65cc6670b00b09.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "7855cd12e972a1d8",
+        "name" : "Response",
+        "source" : "7855cd12e972a1d8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/18052949-8ea1-4dd2-9289-e8a218faed84/text",
+      "time" : {
+        "start" : 1651510392842,
+        "stop" : 1651510392886,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0cac9551957fd4f",
+        "name" : "Response",
+        "source" : "a0cac9551957fd4f.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see a header with text CREATE AN ACCOUNT displayed on current page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a9f00a9334bf969.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

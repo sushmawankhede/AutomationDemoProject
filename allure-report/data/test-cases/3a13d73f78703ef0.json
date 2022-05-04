@@ -1,0 +1,62 @@
+{
+  "uid" : "3a13d73f78703ef0",
+  "name" : "Then I should see a header message with text Automation Practice Website",
+  "fullName" : "The Automation Practice Website: As a user, I want to create account and login to this Website.Then I should see a header message with text Automation Practice Website",
+  "historyId" : "87747f56960e7eec4b00bbffe30dba0a",
+  "time" : {
+    "start" : 1651326144425,
+    "stop" : 1651326144426,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I should see a header message with text Automation Practice Website\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I should see a header message with text Automation Practice Website\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\home.feature):1:1\n                \tat Scenario(As a user, I want to create account and login to this Website):3:5\n                \tat Step(I should see a header message with text <headertext>):6:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a header message with text Automation Practice Website"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a13d73f78703ef0.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

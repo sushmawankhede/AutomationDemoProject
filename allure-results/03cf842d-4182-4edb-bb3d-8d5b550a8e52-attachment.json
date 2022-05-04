@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@class=replace-2x img-responsive]"
+}

@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651326144418' stop='1651326144433'>
+    <name>The Automation Practice Website: As a user, I want to create account and login to this Website</name>
+    <title>The Automation Practice Website: As a user, I want to create account and login to this Website</title>
+    <test-cases>
+        <test-case start='1651326144420' status='passed' stop='1651326144423'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651326144423' status='broken' stop='1651326144425'>
+            <name>Given I open the browser and load the url http://automationpractice.com/index.php</name>
+            <title>Given I open the browser and load the url http://automationpractice.com/index.php</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I open the browser and load the url http://automationpractice.com/index.php" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I open the browser and load the url http://automationpractice.com/index.php" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\HP\Desktop\AutomationDemoProject\features\home.feature):1:1
+                	at Scenario(As a user, I want to create account and login to this Website):3:5
+                	at Step(I open the browser and load the url &lt;homepage>):5:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651326144425' status='broken' stop='1651326144426'>
+            <name>Then I should see a header message with text Automation Practice Website</name>
+            <title>Then I should see a header message with text Automation Practice Website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a header message with text Automation Practice Website" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a header message with text Automation Practice Website" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\HP\Desktop\AutomationDemoProject\features\home.feature):1:1
+                	at Scenario(As a user, I want to create account and login to this Website):3:5
+                	at Step(I should see a header message with text &lt;headertext>):6:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651326144430' status='passed' stop='1651326144431'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,217 @@
+{
+  "uid" : "3cb1235d56e4c7a5",
+  "name" : "Then I should see a header with text Automation Practice Website",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website.Then I should see a header with text Automation Practice Website",
+  "historyId" : "d8787f25a57085a9ff714b49c1619582",
+  "time" : {
+    "start" : 1651415044542,
+    "stop" : 1651415044705,
+    "duration" : 163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651415044547,
+        "stop" : 1651415044603,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa843de149410747",
+        "name" : "Request",
+        "source" : "fa843de149410747.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "6cb8fe6b2049c20f",
+        "name" : "Response",
+        "source" : "6cb8fe6b2049c20f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/19a92386-5c93-4e71-ba13-ca8649916900/text",
+      "time" : {
+        "start" : 1651415044624,
+        "stop" : 1651415044697,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d52772aebaf0bad",
+        "name" : "Response",
+        "source" : "5d52772aebaf0bad.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a header with text Automation Practice Website"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a09d2c6bc911649f",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//*[@id=\"editorial_block_center\"]/h1\" because element wasn't found",
+      "time" : {
+        "start" : 1651414965777,
+        "stop" : 1651414976243,
+        "duration" : 10466
+      }
+    }, {
+      "uid" : "3580ec3d421643cc",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651413803918,
+        "stop" : 0,
+        "duration" : -1651413803918
+      }
+    }, {
+      "uid" : "55cb80d453a28b35",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651413515648,
+        "stop" : 0,
+        "duration" : -1651413515648
+      }
+    }, {
+      "uid" : "5fbf21f5f3827abc",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651413426097,
+        "stop" : 0,
+        "duration" : -1651413426097
+      }
+    }, {
+      "uid" : "dd53a95a49ca9a1a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651413290491,
+        "stop" : 0,
+        "duration" : -1651413290491
+      }
+    }, {
+      "uid" : "c0b2b5c5bef96a22",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651413177995,
+        "stop" : 0,
+        "duration" : -1651413177995
+      }
+    }, {
+      "uid" : "377a52a412fb9e8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651413027358,
+        "stop" : 0,
+        "duration" : -1651413027358
+      }
+    }, {
+      "uid" : "ee01292f9146d268",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651412801064,
+        "stop" : 0,
+        "duration" : -1651412801064
+      }
+    }, {
+      "uid" : "c5466520e0b91beb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651412717998,
+        "stop" : 0,
+        "duration" : -1651412717998
+      }
+    }, {
+      "uid" : "d723702cef8e398a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651412294173,
+        "stop" : 0,
+        "duration" : -1651412294173
+      }
+    }, {
+      "uid" : "29f8a0f32f8524d6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651411995299,
+        "stop" : 0,
+        "duration" : -1651411995299
+      }
+    }, {
+      "uid" : "2e032907b02989f8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651411333445,
+        "stop" : 0,
+        "duration" : -1651411333445
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cb1235d56e4c7a5.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

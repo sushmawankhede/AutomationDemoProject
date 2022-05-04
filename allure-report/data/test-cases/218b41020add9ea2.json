@@ -1,0 +1,112 @@
+{
+  "uid" : "218b41020add9ea2",
+  "name" : "Given I open the browser and load the url http://automationpractice.com/index.php",
+  "fullName" : "The Automation Practice Website: As a user, I want to create account and login to this Website.Given I open the browser and load the url http://automationpractice.com/index.php",
+  "historyId" : "a0cfd7bd75cc7cc792685e10c2b8cd1a",
+  "time" : {
+    "start" : 1651342387188,
+    "stop" : 1651342395172,
+    "duration" : 7984
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1651342387192,
+        "stop" : 1651342395004,
+        "duration" : 7812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4453b46a368cc8c",
+        "name" : "Request",
+        "source" : "a4453b46a368cc8c.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1651342395005,
+        "stop" : 1651342395165,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2a073ce467f647c",
+        "name" : "Response",
+        "source" : "e2a073ce467f647c.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the browser and load the url http://automationpractice.com/index.php"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "218b41020add9ea2.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

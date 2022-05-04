@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651466518773' stop='1651466519297'>
+    <name>The Automation Practice Website: As a user, I want to register to this website</name>
+    <title>The Automation Practice Website: As a user, I want to register to this website</title>
+    <test-cases>
+        <test-case start='1651466518773' status='passed' stop='1651466518774'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1651466518774' status='passed' stop='1651466519223'>
+            <name>Given I open the browser and load the url "http://automationpractice.com/index.php?controller=authentication"</name>
+            <title>Given I open the browser and load the url "http://automationpractice.com/index.php?controller=authentication"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651466518776' status='passed' stop='1651466519208'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e593aaf5-0749-4251-8c83-d64574c99502-attachment.json' type='application/json' size='80'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651466519208' status='passed' stop='1651466519221'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='19f05cc0-6073-4b62-8249-f01a06bb8454-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1651466519223' status='failed' stop='1651466519295'>
+            <name>Then I should see a header with text "Create an account"</name>
+            <title>Then I should see a header with text "Create an account"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps>
+                <step start='1651466519225' status='passed' stop='1651466519247'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='48a0b67f-7125-4c21-9213-d5cd3fd11c9f-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='03700999-3a1e-4132-927b-c08b1a4c9cdd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651466519254' status='passed' stop='1651466519291'>
+                    <name>GET /session/:sessionId/element/d6701206-01f3-4b01-a531-78d48b11e828/text</name>
+                    <title>GET /session/:sessionId/element/d6701206-01f3-4b01-a531-78d48b11e828/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b7ccbd19-1a81-43f3-b86e-7acb0ffd8acf-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Create an account"
+                Received: "Resource Limit Is Reached"
+                    at World.&lt;anonymous> (C:\Users\HP\Desktop\AutomationDemoProject\features\step-definitions\register.steps.ts:11:43)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651466519295' status='passed' stop='1651466519296'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.41'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

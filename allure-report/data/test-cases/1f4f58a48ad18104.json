@@ -1,0 +1,118 @@
+{
+  "uid" : "1f4f58a48ad18104",
+  "name" : "Then I should see a header with text Automation Practice Website",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.Then I should see a header with text Automation Practice Website",
+  "historyId" : "d2ddb23e8f937f6a48bbe41800ca00dd",
+  "time" : {
+    "start" : 1651420505823,
+    "stop" : 1651420506007,
+    "duration" : 184
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651420505832,
+        "stop" : 1651420505893,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a63517d29af27f89",
+        "name" : "Request",
+        "source" : "a63517d29af27f89.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "60fdd5fdc237a3a7",
+        "name" : "Response",
+        "source" : "60fdd5fdc237a3a7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/23dc149b-d26c-486c-8e33-9779cc668bb4/text",
+      "time" : {
+        "start" : 1651420505912,
+        "stop" : 1651420506000,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0a200a77d3808c7",
+        "name" : "Response",
+        "source" : "d0a200a77d3808c7.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a header with text Automation Practice Website"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f4f58a48ad18104.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

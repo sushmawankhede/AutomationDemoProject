@@ -1,0 +1,139 @@
+{
+  "uid" : "3c17ddba4d0fa43a",
+  "name" : "When i enter valid email address testuser1.04.22 in the textbox",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.When i enter valid email address testuser1.04.22 in the textbox",
+  "historyId" : "753cb9924e9545ccff2022d9515c3449",
+  "time" : {
+    "start" : 1651420516373,
+    "stop" : 1651420516730,
+    "duration" : 357
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651420516374,
+        "stop" : 1651420516425,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf6467a3f7d43601",
+        "name" : "Request",
+        "source" : "bf6467a3f7d43601.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "ea9cac13c17d1e9a",
+        "name" : "Response",
+        "source" : "ea9cac13c17d1e9a.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/299ca3fe-1663-4026-9b77-da173e480d3d/clear",
+      "time" : {
+        "start" : 1651420516469,
+        "stop" : 1651420516547,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/299ca3fe-1663-4026-9b77-da173e480d3d/value",
+      "time" : {
+        "start" : 1651420516561,
+        "stop" : 1651420516729,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "596fa6fe0fd3f9b0",
+        "name" : "Request",
+        "source" : "596fa6fe0fd3f9b0.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "f36f0043fb10e6bc",
+      "name" : "Response",
+      "source" : "f36f0043fb10e6bc.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i enter valid email address testuser1.04.22 in the textbox"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c17ddba4d0fa43a.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

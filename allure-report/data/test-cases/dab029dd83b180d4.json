@@ -1,0 +1,118 @@
+{
+  "uid" : "dab029dd83b180d4",
+  "name" : "Then i validate my email id testuser1.04.23@gmail.com is autopulated",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.Then i validate my email id testuser1.04.23@gmail.com is autopulated",
+  "historyId" : "934008d850989850487b778afb116999",
+  "time" : {
+    "start" : 1651489106274,
+    "stop" : 1651489106324,
+    "duration" : 50
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651489106275,
+        "stop" : 1651489106301,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a924bcf73cb31e68",
+        "name" : "Request",
+        "source" : "a924bcf73cb31e68.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "7ca5b59126232eae",
+        "name" : "Response",
+        "source" : "7ca5b59126232eae.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/6c405333-a189-43d3-a7fa-0a396d3608c8/attribute/value",
+      "time" : {
+        "start" : 1651489106307,
+        "stop" : 1651489106322,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e52acbd55aed4749",
+        "name" : "Response",
+        "source" : "e52acbd55aed4749.json",
+        "type" : "application/json",
+        "size" : 27
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i validate my email id testuser1.04.23@gmail.com is autopulated"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dab029dd83b180d4.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

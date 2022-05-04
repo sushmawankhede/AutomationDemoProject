@@ -1,0 +1,280 @@
+{
+  "uid" : "348d43e08c5c0a16",
+  "name" : "When i enter valid email address testuser1.04.22@gmail.com in the textbox",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.When i enter valid email address testuser1.04.22@gmail.com in the textbox",
+  "historyId" : "204f90bc341530c6d75361c8a4d171bb",
+  "time" : {
+    "start" : 1651512348918,
+    "stop" : 1651512349181,
+    "duration" : 263
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 18,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651512348919,
+        "stop" : 1651512348954,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92bc42f8d4acfd11",
+        "name" : "Request",
+        "source" : "92bc42f8d4acfd11.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "8a2dc97dbc266a18",
+        "name" : "Response",
+        "source" : "8a2dc97dbc266a18.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/2cecc49b-8cf6-4274-9fb3-7fce62d986d0/clear",
+      "time" : {
+        "start" : 1651512348960,
+        "stop" : 1651512349022,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/2cecc49b-8cf6-4274-9fb3-7fce62d986d0/value",
+      "time" : {
+        "start" : 1651512349035,
+        "stop" : 1651512349180,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4abc3356f3f6789",
+        "name" : "Request",
+        "source" : "4abc3356f3f6789.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i enter valid email address testuser1.04.22@gmail.com in the textbox"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "21195183984ac3ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651511259580,
+        "stop" : 1651511259948,
+        "duration" : 368
+      }
+    }, {
+      "uid" : "732ae33ffb5f7e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651510548342,
+        "stop" : 1651510548682,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "7a25f4470a1364c5",
+      "status" : "broken",
+      "statusDetails" : "invalid element state: invalid element state",
+      "time" : {
+        "start" : 1651510392888,
+        "stop" : 1651510393089,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "13b7e8662779ffcf",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510322849,
+        "stop" : 0,
+        "duration" : -1651510322849
+      }
+    }, {
+      "uid" : "8a8d11de49171028",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510203195,
+        "stop" : 0,
+        "duration" : -1651510203195
+      }
+    }, {
+      "uid" : "d766d3a3cd9acf5b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510157381,
+        "stop" : 0,
+        "duration" : -1651510157381
+      }
+    }, {
+      "uid" : "e95bafdf96ae345b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509938267,
+        "stop" : 0,
+        "duration" : -1651509938267
+      }
+    }, {
+      "uid" : "3d1a4642ad069a6d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509676713,
+        "stop" : 0,
+        "duration" : -1651509676713
+      }
+    }, {
+      "uid" : "b473e98bff3609ab",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509561975,
+        "stop" : 0,
+        "duration" : -1651509561975
+      }
+    }, {
+      "uid" : "14fe7fd77fdc0415",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509072980,
+        "stop" : 0,
+        "duration" : -1651509072980
+      }
+    }, {
+      "uid" : "886c9c23daca6fc4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651507843263,
+        "stop" : 0,
+        "duration" : -1651507843263
+      }
+    }, {
+      "uid" : "4439fa804f370741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651423751476,
+        "stop" : 1651423751756,
+        "duration" : 280
+      }
+    }, {
+      "uid" : "cd4967355b9177d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651422703984,
+        "stop" : 1651422704339,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "420e848e29d6ed2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651422658727,
+        "stop" : 1651422659031,
+        "duration" : 304
+      }
+    }, {
+      "uid" : "6ec66e98ac58971c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421880478,
+        "stop" : 1651421880831,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "4daabc7f38db5c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421763271,
+        "stop" : 1651421763594,
+        "duration" : 323
+      }
+    }, {
+      "uid" : "9312cf760be06263",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421673274,
+        "stop" : 1651421673850,
+        "duration" : 576
+      }
+    }, {
+      "uid" : "58e19a0256b695de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421515300,
+        "stop" : 1651421515616,
+        "duration" : 316
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "348d43e08c5c0a16.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

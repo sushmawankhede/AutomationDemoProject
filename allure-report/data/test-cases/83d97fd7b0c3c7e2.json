@@ -1,0 +1,139 @@
+{
+  "uid" : "83d97fd7b0c3c7e2",
+  "name" : "When i enter valid email address testuser1.04.22@gmail.com in the textbox",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.When i enter valid email address testuser1.04.22@gmail.com in the textbox",
+  "historyId" : "b01fd8572018eb6da65e6ab0131880f6",
+  "time" : {
+    "start" : 1651420829901,
+    "stop" : 1651420830208,
+    "duration" : 307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651420829902,
+        "stop" : 1651420829934,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e455d62f8e043639",
+        "name" : "Request",
+        "source" : "e455d62f8e043639.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "a72c98196b4459d",
+        "name" : "Response",
+        "source" : "a72c98196b4459d.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/b2c6ca4b-d242-4e25-9c74-88bdd29c5005/clear",
+      "time" : {
+        "start" : 1651420829965,
+        "stop" : 1651420830030,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b2c6ca4b-d242-4e25-9c74-88bdd29c5005/value",
+      "time" : {
+        "start" : 1651420830048,
+        "stop" : 1651420830207,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6e832a83fd7ea10",
+        "name" : "Request",
+        "source" : "b6e832a83fd7ea10.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "38ec18866df0b7f7",
+      "name" : "Response",
+      "source" : "38ec18866df0b7f7.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i enter valid email address testuser1.04.22@gmail.com in the textbox"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83d97fd7b0c3c7e2.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

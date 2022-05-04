@@ -1,0 +1,172 @@
+{
+  "uid" : "b1c95527b6335e",
+  "name" : "Then i validate dress Dresses on page",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.Then i validate dress Dresses on page",
+  "historyId" : "4d31e37446f308639a1b5cd78f19b209",
+  "time" : {
+    "start" : 1651565886927,
+    "stop" : 1651565890521,
+    "duration" : 3594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651565886931,
+        "stop" : 1651565886985,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "402d88b1d71c4c1a",
+        "name" : "Request",
+        "source" : "402d88b1d71c4c1a.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "d9c5624b03dc2770",
+        "name" : "Response",
+        "source" : "d9c5624b03dc2770.json",
+        "type" : "application/json",
+        "size" : 1034
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651565886995,
+        "stop" : 1651565890431,
+        "duration" : 3436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c0a006212059df2",
+        "name" : "Request",
+        "source" : "4c0a006212059df2.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651565890465,
+        "stop" : 1651565890485,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79ee5ebf37749874",
+        "name" : "Request",
+        "source" : "79ee5ebf37749874.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "d46207b4e5a5d3c9",
+        "name" : "Response",
+        "source" : "d46207b4e5a5d3c9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/ee840886-a2a2-4a32-bd8c-7359e625f45b/text",
+      "time" : {
+        "start" : 1651565890491,
+        "stop" : 1651565890516,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea1dbf0ba2e6963c",
+        "name" : "Response",
+        "source" : "ea1dbf0ba2e6963c.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "dd004181b73468ae",
+      "name" : "Response",
+      "source" : "dd004181b73468ae.json",
+      "type" : "application/json",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i validate dress Dresses on page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1c95527b6335e.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

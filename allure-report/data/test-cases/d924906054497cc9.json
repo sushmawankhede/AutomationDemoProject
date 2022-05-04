@@ -1,0 +1,131 @@
+{
+  "uid" : "d924906054497cc9",
+  "name" : "When i select gender title Mrs.",
+  "fullName" : "The Automation Practice Website: As a user, I want to register to this website.When i select gender title Mrs.",
+  "historyId" : "7eeb95dacf20866c6dc194907eb44c15",
+  "time" : {
+    "start" : 1651476472086,
+    "stop" : 1651476472145,
+    "duration" : 59
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651476472094,
+        "stop" : 1651476472131,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee3e24177941494d",
+        "name" : "Request",
+        "source" : "ee3e24177941494d.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "e55d3fb2bf78ee55",
+        "name" : "Response",
+        "source" : "e55d3fb2bf78ee55.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i select gender title Mrs."
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bdb8d0710521991e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651476413884,
+        "stop" : 1651476413943,
+        "duration" : 59
+      }
+    }, {
+      "uid" : "9ecf82967b88792f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651476378272,
+        "stop" : 1651476378401,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "1c194149d70d6f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651475679229,
+        "stop" : 1651475679310,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "5cac65bfd01196f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651475625075,
+        "stop" : 1651475625153,
+        "duration" : 78
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d924906054497cc9.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

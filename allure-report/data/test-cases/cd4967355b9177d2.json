@@ -1,0 +1,139 @@
+{
+  "uid" : "cd4967355b9177d2",
+  "name" : "When i enter valid email address testuser1.04.22@gmail.com in the textbox",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.When i enter valid email address testuser1.04.22@gmail.com in the textbox",
+  "historyId" : "204f90bc341530c6d75361c8a4d171bb",
+  "time" : {
+    "start" : 1651422703984,
+    "stop" : 1651422704339,
+    "duration" : 355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651422703985,
+        "stop" : 1651422704028,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9753f1365ad830b",
+        "name" : "Request",
+        "source" : "e9753f1365ad830b.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "af81ac9add951440",
+        "name" : "Response",
+        "source" : "af81ac9add951440.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/fb812748-c6ae-4d6c-8246-89698184867a/clear",
+      "time" : {
+        "start" : 1651422704061,
+        "stop" : 1651422704144,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/fb812748-c6ae-4d6c-8246-89698184867a/value",
+      "time" : {
+        "start" : 1651422704157,
+        "stop" : 1651422704339,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a0abf8ceff282d",
+        "name" : "Request",
+        "source" : "7a0abf8ceff282d.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "6acb5672e11c819f",
+      "name" : "Response",
+      "source" : "6acb5672e11c819f.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i enter valid email address testuser1.04.22@gmail.com in the textbox"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd4967355b9177d2.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

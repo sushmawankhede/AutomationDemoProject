@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"categories_block_left\"]/div/ul/li[1]/a"
+}

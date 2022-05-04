@@ -1,0 +1,258 @@
+{
+  "uid" : "f28d794c3b9a2bb9",
+  "name" : "And i click on Create an account button",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.And i click on Create an account button",
+  "historyId" : "8f833357cde67d6083146299d774cfc3",
+  "time" : {
+    "start" : 1651512349181,
+    "stop" : 1651512349316,
+    "duration" : 135
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 18,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651512349182,
+        "stop" : 1651512349213,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38887d559d7c0ecd",
+        "name" : "Request",
+        "source" : "38887d559d7c0ecd.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "d62acb7b336eb633",
+        "name" : "Response",
+        "source" : "d62acb7b336eb633.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/fdc3e1b5-29e7-4082-aa8b-1157b1ce8031/click",
+      "time" : {
+        "start" : 1651512349221,
+        "stop" : 1651512349315,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And i click on Create an account button"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca1e2d2ae00506eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651511259948,
+        "stop" : 1651511260229,
+        "duration" : 281
+      }
+    }, {
+      "uid" : "6a61aed93835f19a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651510548683,
+        "stop" : 1651510548872,
+        "duration" : 189
+      }
+    }, {
+      "uid" : "d39d070b532cfc7e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510393089,
+        "stop" : 0,
+        "duration" : -1651510393089
+      }
+    }, {
+      "uid" : "3dc7b46f9fb64ca0",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510322849,
+        "stop" : 0,
+        "duration" : -1651510322849
+      }
+    }, {
+      "uid" : "349a1610a6b851d3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510203196,
+        "stop" : 0,
+        "duration" : -1651510203196
+      }
+    }, {
+      "uid" : "8ea4c0eb2fe74cc1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651510157384,
+        "stop" : 0,
+        "duration" : -1651510157384
+      }
+    }, {
+      "uid" : "e56d664b6eec9342",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509938268,
+        "stop" : 0,
+        "duration" : -1651509938268
+      }
+    }, {
+      "uid" : "b11ebd876ff3bfd7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509676715,
+        "stop" : 0,
+        "duration" : -1651509676715
+      }
+    }, {
+      "uid" : "d9dfb9f5d5614fac",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509561975,
+        "stop" : 0,
+        "duration" : -1651509561975
+      }
+    }, {
+      "uid" : "9b666464db0904a2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651509072980,
+        "stop" : 0,
+        "duration" : -1651509072980
+      }
+    }, {
+      "uid" : "ad28e6e98906fbbe",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651507843264,
+        "stop" : 0,
+        "duration" : -1651507843264
+      }
+    }, {
+      "uid" : "1e3691dfe1a51d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651423751756,
+        "stop" : 1651423751763,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "7de2e505b08ffe95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651422704340,
+        "stop" : 1651422704346,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "fe3977e453b1bc69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651422659031,
+        "stop" : 1651422659157,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "e23311ebae93b905",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421880831,
+        "stop" : 1651421880836,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "317334f79834cac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421763594,
+        "stop" : 1651421763601,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "59de50f394e1270c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421673850,
+        "stop" : 1651421673871,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "d1b8396beac14ed4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651421515616,
+        "stop" : 1651421515623,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f28d794c3b9a2bb9.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

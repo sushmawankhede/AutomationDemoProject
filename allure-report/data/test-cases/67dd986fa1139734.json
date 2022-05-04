@@ -1,0 +1,196 @@
+{
+  "uid" : "67dd986fa1139734",
+  "name" : "And i enter fname neha and lname wadkar",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.And i enter fname neha and lname wadkar",
+  "historyId" : "7fa23fd1f98948c993793c972c3a1a7b",
+  "time" : {
+    "start" : 1651482707948,
+    "stop" : 1651482708345,
+    "duration" : 397
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651482707950,
+        "stop" : 1651482708000,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1651482707954,
+          "stop" : 1651482707984,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d3f1543f2e841a3b",
+          "name" : "Request",
+          "source" : "d3f1543f2e841a3b.json",
+          "type" : "application/json",
+          "size" : 69
+        }, {
+          "uid" : "7acb2a7a5414c93f",
+          "name" : "Response",
+          "source" : "7acb2a7a5414c93f.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ {
+        "uid" : "73f171342a4bcdf3",
+        "name" : "Request",
+        "source" : "73f171342a4bcdf3.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "ad4113d52675257f",
+        "name" : "Response",
+        "source" : "ad4113d52675257f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    }, {
+      "name" : "POST /session/:sessionId/element/e2c30ecf-91de-48c1-be99-4136dbf2718a/clear",
+      "time" : {
+        "start" : 1651482708003,
+        "stop" : 1651482708065,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/e2c30ecf-91de-48c1-be99-4136dbf2718a/value",
+      "time" : {
+        "start" : 1651482708066,
+        "stop" : 1651482708200,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c790ef5c92387384",
+        "name" : "Request",
+        "source" : "c790ef5c92387384.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element/c0f3665a-a69d-4633-84ae-cca2a0f4bf03/clear",
+      "time" : {
+        "start" : 1651482708202,
+        "stop" : 1651482708254,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c0f3665a-a69d-4633-84ae-cca2a0f4bf03/value",
+      "time" : {
+        "start" : 1651482708255,
+        "stop" : 1651482708344,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb18fa8ea88b1958",
+        "name" : "Request",
+        "source" : "bb18fa8ea88b1958.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "And i enter fname neha and lname wadkar"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67dd986fa1139734.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

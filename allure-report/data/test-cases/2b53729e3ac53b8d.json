@@ -1,0 +1,139 @@
+{
+  "uid" : "2b53729e3ac53b8d",
+  "name" : "Then i successfully land on create account page , see heading \"AUTHENTICATION\"",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.Then i successfully land on create account page , see heading \"AUTHENTICATION\"",
+  "historyId" : "e64de8cacc10fc5946f683f544425d35",
+  "time" : {
+    "start" : 1651479929638,
+    "stop" : 1651479929858,
+    "duration" : 220
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651479929639,
+        "stop" : 1651479929706,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c42a72452174c8f",
+        "name" : "Request",
+        "source" : "9c42a72452174c8f.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "e0b2ccb5b665fe3a",
+        "name" : "Response",
+        "source" : "e0b2ccb5b665fe3a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/27878840-0c47-496e-96ca-d23d8955fc81/click",
+      "time" : {
+        "start" : 1651479929714,
+        "stop" : 1651479929728,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a0e74b6dff9d0dd",
+        "name" : "Response",
+        "source" : "7a0e74b6dff9d0dd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/84130ea7-e7b7-4872-be8d-5ba3ae9b82f2/text",
+      "time" : {
+        "start" : 1651479929736,
+        "stop" : 1651479929835,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e4217697612de7a6",
+      "name" : "Response",
+      "source" : "e4217697612de7a6.json",
+      "type" : "application/json",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i successfully land on create account page , see heading \"AUTHENTICATION\""
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b53729e3ac53b8d.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

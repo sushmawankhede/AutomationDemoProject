@@ -1,0 +1,521 @@
+{
+  "uid" : "e61674cdaf06f5dd",
+  "name" : "Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page",
+  "fullName" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page.Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page",
+  "historyId" : "2143d2cbbf7186771d3503e8694c8bd2",
+  "time" : {
+    "start" : 1651509928192,
+    "stop" : 1651509938267,
+    "duration" : 10075
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//*[@class=\"box\"]/h3`) to have text",
+  "statusTrace" : "Error: Expect $(`//*[@class=\"box\"]/h3`) to have text\n                \n                Expected: \"\\\"CREATE AN ACCOUNT\\\"\"\n                Received: \"CREATE AN ACCOUNT\"\n                    at World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\home.steps.ts:32:45)\n                    at World.executeAsync (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async wrapPromiseWithTimeout (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at async Object.run (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at async Object.run (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at async TestCaseRunner.invokeStep (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at async TestCaseRunner.runStep (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at async C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect $(`//*[@class=\"box\"]/h3`) to have text",
+    "statusTrace" : "Error: Expect $(`//*[@class=\"box\"]/h3`) to have text\n                \n                Expected: \"\\\"CREATE AN ACCOUNT\\\"\"\n                Received: \"CREATE AN ACCOUNT\"\n                    at World.<anonymous> (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\step-definitions\\home.steps.ts:32:45)\n                    at World.executeAsync (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async wrapPromiseWithTimeout (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at async Object.run (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at async Object.run (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at async TestCaseRunner.invokeStep (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at async TestCaseRunner.runStep (C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at async C:\\Users\\HP\\Desktop\\AutomationDemoProject\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651509928195,
+        "stop" : 1651509928227,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f8f4999e6701557",
+        "name" : "Request",
+        "source" : "5f8f4999e6701557.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "3ebc6114fb6aef78",
+        "name" : "Response",
+        "source" : "3ebc6114fb6aef78.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509928232,
+        "stop" : 1651509928258,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f96646250efa1d6",
+        "name" : "Response",
+        "source" : "3f96646250efa1d6.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509928738,
+        "stop" : 1651509928831,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86588233a163fc9",
+        "name" : "Response",
+        "source" : "86588233a163fc9.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509929241,
+        "stop" : 1651509929279,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9632e8f59724c9ed",
+        "name" : "Response",
+        "source" : "9632e8f59724c9ed.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509929745,
+        "stop" : 1651509929765,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6fa727532bad8039",
+        "name" : "Response",
+        "source" : "6fa727532bad8039.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509930245,
+        "stop" : 1651509930262,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2653d7092c79879b",
+        "name" : "Response",
+        "source" : "2653d7092c79879b.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509930741,
+        "stop" : 1651509930757,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8a9b2770367bf08",
+        "name" : "Response",
+        "source" : "b8a9b2770367bf08.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509931235,
+        "stop" : 1651509931248,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bc184bad116e13",
+        "name" : "Response",
+        "source" : "6bc184bad116e13.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509931741,
+        "stop" : 1651509931757,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5277fc0051a651fc",
+        "name" : "Response",
+        "source" : "5277fc0051a651fc.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509932244,
+        "stop" : 1651509932258,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ef4897eec4cdc44",
+        "name" : "Response",
+        "source" : "2ef4897eec4cdc44.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509932735,
+        "stop" : 1651509932749,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76fd33415d979e51",
+        "name" : "Response",
+        "source" : "76fd33415d979e51.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509933244,
+        "stop" : 1651509933267,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2bc3b25513c555e",
+        "name" : "Response",
+        "source" : "c2bc3b25513c555e.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509933734,
+        "stop" : 1651509933829,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4402a85923ab673",
+        "name" : "Response",
+        "source" : "c4402a85923ab673.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509934241,
+        "stop" : 1651509934257,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4843b304f55c214",
+        "name" : "Response",
+        "source" : "b4843b304f55c214.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509934739,
+        "stop" : 1651509934758,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65314fe57d2edbae",
+        "name" : "Response",
+        "source" : "65314fe57d2edbae.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509935246,
+        "stop" : 1651509935262,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fab6d83be1d22b9",
+        "name" : "Response",
+        "source" : "2fab6d83be1d22b9.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509935745,
+        "stop" : 1651509935762,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44adee8846fd751f",
+        "name" : "Response",
+        "source" : "44adee8846fd751f.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509936246,
+        "stop" : 1651509936262,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd03d38225be671e",
+        "name" : "Response",
+        "source" : "bd03d38225be671e.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509936733,
+        "stop" : 1651509936755,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52cff1d014654e1e",
+        "name" : "Response",
+        "source" : "52cff1d014654e1e.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509937235,
+        "stop" : 1651509937257,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14b55208ac60e721",
+        "name" : "Response",
+        "source" : "14b55208ac60e721.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/8cb683fa-1177-4aed-9009-4008f381cd5d/text",
+      "time" : {
+        "start" : 1651509937737,
+        "stop" : 1651509937756,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18475ffc308c751f",
+        "name" : "Response",
+        "source" : "18475ffc308c751f.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 22
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e61674cdaf06f5dd.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

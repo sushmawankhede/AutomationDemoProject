@@ -1,0 +1,289 @@
+{
+  "uid" : "875c98edd47d357d",
+  "name" : "Then i validate the message Product successfully added to your shopping cart displayed on the page",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.Then i validate the message Product successfully added to your shopping cart displayed on the page",
+  "historyId" : "4167aafbc714c08351c873fbb4d42390",
+  "time" : {
+    "start" : 1651580997725,
+    "stop" : 1651581001858,
+    "duration" : 4133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651580997745,
+        "stop" : 1651580997811,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "154e5dbb5f6a5485",
+        "name" : "Request",
+        "source" : "154e5dbb5f6a5485.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "c0cdd89253e45fee",
+        "name" : "Response",
+        "source" : "c0cdd89253e45fee.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651580997824,
+        "stop" : 1651580997850,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651580998324,
+        "stop" : 1651580998378,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651580998836,
+        "stop" : 1651580998857,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651580999339,
+        "stop" : 1651580999380,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651580999838,
+        "stop" : 1651580999880,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651581000339,
+        "stop" : 1651581000382,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651581000837,
+        "stop" : 1651581000864,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651581001339,
+        "stop" : 1651581001377,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/237c3ced-db28-4101-a708-d5d6b999ec9f/text",
+      "time" : {
+        "start" : 1651581001825,
+        "stop" : 1651581001850,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5302b84f1e96c8b7",
+        "name" : "Response",
+        "source" : "5302b84f1e96c8b7.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i validate the message Product successfully added to your shopping cart displayed on the page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3ad184ab1b4f6c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651579069213,
+        "stop" : 1651579069831,
+        "duration" : 618
+      }
+    }, {
+      "uid" : "675246dc50d9a0d7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651578996508,
+        "stop" : 0,
+        "duration" : -1651578996508
+      }
+    }, {
+      "uid" : "bb49007f3366adb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651578853469,
+        "stop" : 1651578853579,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "21a2d37ca568fc0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651578602305,
+        "stop" : 1651578602424,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "34c1253ce1ef7733",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651577351602,
+        "stop" : 1651577351713,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "84b7d47f111f61ef",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"layer_cart]/div[1]/div[1]/h2\" because of the following error:",
+      "time" : {
+        "start" : 1651577210967,
+        "stop" : 1651577211092,
+        "duration" : 125
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "875c98edd47d357d.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

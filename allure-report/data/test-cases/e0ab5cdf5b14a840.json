@@ -1,0 +1,471 @@
+{
+  "uid" : "e0ab5cdf5b14a840",
+  "name" : "Then i validate dress Dresses on page",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.Then i validate dress Dresses on page",
+  "historyId" : "4d31e37446f308639a1b5cd78f19b209",
+  "time" : {
+    "start" : 1651573331037,
+    "stop" : 1651573339156,
+    "duration" : 8119
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 43,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651573331041,
+        "stop" : 1651573339055,
+        "duration" : 8014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1137ce382d6aa2c6",
+        "name" : "Request",
+        "source" : "1137ce382d6aa2c6.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/9d6af116-2359-4f42-adaa-be8a93596406/text",
+      "time" : {
+        "start" : 1651573339095,
+        "stop" : 1651573339144,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91f53d5967391b71",
+        "name" : "Response",
+        "source" : "91f53d5967391b71.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5063fb8f0137f9a0",
+      "name" : "Response",
+      "source" : "5063fb8f0137f9a0.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i validate dress Dresses on page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "601cbd7d62580a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651572200967,
+        "stop" : 1651572210186,
+        "duration" : 9219
+      }
+    }, {
+      "uid" : "91981494570219e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651571909307,
+        "stop" : 1651571912786,
+        "duration" : 3479
+      }
+    }, {
+      "uid" : "acbc0ca679b2efcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651571863016,
+        "stop" : 1651571869073,
+        "duration" : 6057
+      }
+    }, {
+      "uid" : "22e7d82abfbbed57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651571799198,
+        "stop" : 1651571803223,
+        "duration" : 4025
+      }
+    }, {
+      "uid" : "229b7dd4428620e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651570241378,
+        "stop" : 1651570245230,
+        "duration" : 3852
+      }
+    }, {
+      "uid" : "3af904ca95b037dc",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651570146566,
+        "stop" : 0,
+        "duration" : -1651570146566
+      }
+    }, {
+      "uid" : "f8f25397ec963289",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651569966901,
+        "stop" : 1651569970444,
+        "duration" : 3543
+      }
+    }, {
+      "uid" : "698e3bcf9333274b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568907412,
+        "stop" : 1651568912077,
+        "duration" : 4665
+      }
+    }, {
+      "uid" : "828664ebe8a1720a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568824823,
+        "stop" : 1651568829674,
+        "duration" : 4851
+      }
+    }, {
+      "uid" : "47f522566e7671e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568755729,
+        "stop" : 1651568761149,
+        "duration" : 5420
+      }
+    }, {
+      "uid" : "259f6e09b6b8703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568678302,
+        "stop" : 1651568682426,
+        "duration" : 4124
+      }
+    }, {
+      "uid" : "5616c32bb2ab0596",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651568628610,
+        "stop" : 0,
+        "duration" : -1651568628610
+      }
+    }, {
+      "uid" : "2d85b8fab295a477",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568452070,
+        "stop" : 1651568461631,
+        "duration" : 9561
+      }
+    }, {
+      "uid" : "c6c8b109379f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568081909,
+        "stop" : 1651568086900,
+        "duration" : 4991
+      }
+    }, {
+      "uid" : "7023b9d9ed397c12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567633303,
+        "stop" : 1651567637479,
+        "duration" : 4176
+      }
+    }, {
+      "uid" : "3453d7c52ff2c02b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567401609,
+        "stop" : 1651567404930,
+        "duration" : 3321
+      }
+    }, {
+      "uid" : "f9df0313fe4d4643",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567298841,
+        "stop" : 1651567302636,
+        "duration" : 3795
+      }
+    }, {
+      "uid" : "fb2ce48c0805ec05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567203990,
+        "stop" : 1651567207908,
+        "duration" : 3918
+      }
+    }, {
+      "uid" : "22630278106521be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567057011,
+        "stop" : 1651567060615,
+        "duration" : 3604
+      }
+    }, {
+      "uid" : "cc312266880ce89e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566989335,
+        "stop" : 1651566993610,
+        "duration" : 4275
+      }
+    }, {
+      "uid" : "1cf6fa234139d9a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566930319,
+        "stop" : 1651566935651,
+        "duration" : 5332
+      }
+    }, {
+      "uid" : "49f2d995ee2d8bb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566853315,
+        "stop" : 1651566856487,
+        "duration" : 3172
+      }
+    }, {
+      "uid" : "c1c715aa4a7101a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651566745353,
+        "stop" : 0,
+        "duration" : -1651566745353
+      }
+    }, {
+      "uid" : "19f3505f0a5ed1e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566114611,
+        "stop" : 1651566118283,
+        "duration" : 3672
+      }
+    }, {
+      "uid" : "920f933a7da51739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566015199,
+        "stop" : 1651566018452,
+        "duration" : 3253
+      }
+    }, {
+      "uid" : "b1c95527b6335e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651565886927,
+        "stop" : 1651565890521,
+        "duration" : 3594
+      }
+    }, {
+      "uid" : "64e13a32060f19d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651564227423,
+        "stop" : 1651564231481,
+        "duration" : 4058
+      }
+    }, {
+      "uid" : "2074b9831a9964ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651564053297,
+        "stop" : 1651564056921,
+        "duration" : 3624
+      }
+    }, {
+      "uid" : "2e02676f7b6469b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651563945907,
+        "stop" : 1651563949460,
+        "duration" : 3553
+      }
+    }, {
+      "uid" : "3bb92d4bd49fe41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651563696295,
+        "stop" : 1651563700370,
+        "duration" : 4075
+      }
+    }, {
+      "uid" : "8912716594986178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562721185,
+        "stop" : 1651562725058,
+        "duration" : 3873
+      }
+    }, {
+      "uid" : "68c1a44672edce3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562537130,
+        "stop" : 1651562545288,
+        "duration" : 8158
+      }
+    }, {
+      "uid" : "7b01f633dfff5997",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651562380894,
+        "stop" : 0,
+        "duration" : -1651562380894
+      }
+    }, {
+      "uid" : "c5ec69d40c048ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562253233,
+        "stop" : 1651562264142,
+        "duration" : 10909
+      }
+    }, {
+      "uid" : "ff057449419ef25d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562197177,
+        "stop" : 1651562201080,
+        "duration" : 3903
+      }
+    }, {
+      "uid" : "bf0e394a4cf022cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651561165858,
+        "stop" : 1651561174486,
+        "duration" : 8628
+      }
+    }, {
+      "uid" : "1d7a868f5dcefec9",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"*=Dress\" because element wasn't found",
+      "time" : {
+        "start" : 1651556357549,
+        "stop" : 1651556362566,
+        "duration" : 5017
+      }
+    }, {
+      "uid" : "2e67df38581bde91",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651555336660,
+        "stop" : 1651555341682,
+        "duration" : 5022
+      }
+    }, {
+      "uid" : "454e2377bad8020",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651555253761,
+        "stop" : 1651555258777,
+        "duration" : 5016
+      }
+    }, {
+      "uid" : "e2f81c0b1aa1bd1d",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651555098622,
+        "stop" : 1651555108638,
+        "duration" : 10016
+      }
+    }, {
+      "uid" : "e989e18f4c853328",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651554806788,
+        "stop" : 1651554816807,
+        "duration" : 10019
+      }
+    }, {
+      "uid" : "669cdda3ce5a4a86",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651554710328,
+        "stop" : 1651554720335,
+        "duration" : 10007
+      }
+    }, {
+      "uid" : "29681544d59f726f",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: invalid selector: An invalid or illegal selector was specified",
+      "time" : {
+        "start" : 1651554558672,
+        "stop" : 1651554558806,
+        "duration" : 134
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0ab5cdf5b14a840.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

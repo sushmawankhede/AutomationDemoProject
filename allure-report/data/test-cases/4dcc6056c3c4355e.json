@@ -1,0 +1,500 @@
+{
+  "uid" : "4dcc6056c3c4355e",
+  "name" : "When i click on the dresses menu",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i click on the dresses menu",
+  "historyId" : "80a4d2817028a5fba268d9a5f7b3e97f",
+  "time" : {
+    "start" : 1651573320975,
+    "stop" : 1651573331036,
+    "duration" : 10061
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 48,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651573330983,
+        "stop" : 1651573331026,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15fc18c03503408",
+        "name" : "Request",
+        "source" : "15fc18c03503408.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "df9a446093102984",
+        "name" : "Response",
+        "source" : "df9a446093102984.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/72aeb5a0-4d7b-4919-8635-f00de1244975/click",
+      "time" : {
+        "start" : 1651573331033,
+        "stop" : 0,
+        "duration" : -1651573331033
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i click on the dresses menu"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b4b3c6c9c2eb65be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651572190916,
+        "stop" : 1651572200967,
+        "duration" : 10051
+      }
+    }, {
+      "uid" : "a70e4dd5312b74b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651571899240,
+        "stop" : 1651571909306,
+        "duration" : 10066
+      }
+    }, {
+      "uid" : "d4317ebb7c68098c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651571852950,
+        "stop" : 1651571863015,
+        "duration" : 10065
+      }
+    }, {
+      "uid" : "f42e3aa41d2d6fc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651571789147,
+        "stop" : 1651571799198,
+        "duration" : 10051
+      }
+    }, {
+      "uid" : "4795f021ef7c44b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651570231293,
+        "stop" : 1651570241378,
+        "duration" : 10085
+      }
+    }, {
+      "uid" : "9dee69c0967df34c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651570146557,
+        "stop" : 0,
+        "duration" : -1651570146557
+      }
+    }, {
+      "uid" : "8d638a817a320149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651569956838,
+        "stop" : 1651569966901,
+        "duration" : 10063
+      }
+    }, {
+      "uid" : "6123e5ed2faaf38d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568897361,
+        "stop" : 1651568907412,
+        "duration" : 10051
+      }
+    }, {
+      "uid" : "64e3fb43913e388e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568814748,
+        "stop" : 1651568824823,
+        "duration" : 10075
+      }
+    }, {
+      "uid" : "68b48bd4e533d9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568745682,
+        "stop" : 1651568755728,
+        "duration" : 10046
+      }
+    }, {
+      "uid" : "c8053c609778e314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568668258,
+        "stop" : 1651568678302,
+        "duration" : 10044
+      }
+    }, {
+      "uid" : "5a7f11acd53a6a35",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651568628609,
+        "stop" : 0,
+        "duration" : -1651568628609
+      }
+    }, {
+      "uid" : "4ee0343a246efd3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568442014,
+        "stop" : 1651568452070,
+        "duration" : 10056
+      }
+    }, {
+      "uid" : "c576a542e2bec903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651568071864,
+        "stop" : 1651568081909,
+        "duration" : 10045
+      }
+    }, {
+      "uid" : "816b5aa37ea596d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567623245,
+        "stop" : 1651567633303,
+        "duration" : 10058
+      }
+    }, {
+      "uid" : "4c036fb6b4fd3068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567391569,
+        "stop" : 1651567401609,
+        "duration" : 10040
+      }
+    }, {
+      "uid" : "32918777a02ace18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567288769,
+        "stop" : 1651567298840,
+        "duration" : 10071
+      }
+    }, {
+      "uid" : "75ce047ce097a58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567193942,
+        "stop" : 1651567203990,
+        "duration" : 10048
+      }
+    }, {
+      "uid" : "2a5a7b97bbfd2a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651567046939,
+        "stop" : 1651567057011,
+        "duration" : 10072
+      }
+    }, {
+      "uid" : "6224d88a71bbac4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566979281,
+        "stop" : 1651566989335,
+        "duration" : 10054
+      }
+    }, {
+      "uid" : "fd7755733972d8eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566920272,
+        "stop" : 1651566930319,
+        "duration" : 10047
+      }
+    }, {
+      "uid" : "1df7a68a3b533bee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566843262,
+        "stop" : 1651566853315,
+        "duration" : 10053
+      }
+    }, {
+      "uid" : "698fbb5996ceb72d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651566745352,
+        "stop" : 0,
+        "duration" : -1651566745352
+      }
+    }, {
+      "uid" : "f0043c7a6b451c74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566104555,
+        "stop" : 1651566114610,
+        "duration" : 10055
+      }
+    }, {
+      "uid" : "b67cd1cc077cb484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651566005143,
+        "stop" : 1651566015198,
+        "duration" : 10055
+      }
+    }, {
+      "uid" : "73e89bfd411a3f3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651565876840,
+        "stop" : 1651565886926,
+        "duration" : 10086
+      }
+    }, {
+      "uid" : "6dee152d95f669c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651564217368,
+        "stop" : 1651564227423,
+        "duration" : 10055
+      }
+    }, {
+      "uid" : "820b6526977ce1b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651564043239,
+        "stop" : 1651564053296,
+        "duration" : 10057
+      }
+    }, {
+      "uid" : "4c8b09926145c43e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651563935849,
+        "stop" : 1651563945907,
+        "duration" : 10058
+      }
+    }, {
+      "uid" : "61a6e48b6fb15722",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651563686224,
+        "stop" : 1651563696294,
+        "duration" : 10070
+      }
+    }, {
+      "uid" : "5629b76148e16a05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562711133,
+        "stop" : 1651562721185,
+        "duration" : 10052
+      }
+    }, {
+      "uid" : "53baab8fbd5568d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562527084,
+        "stop" : 1651562537129,
+        "duration" : 10045
+      }
+    }, {
+      "uid" : "8878386748b7d312",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651562380892,
+        "stop" : 0,
+        "duration" : -1651562380892
+      }
+    }, {
+      "uid" : "6a2487edda46435d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562243175,
+        "stop" : 1651562253232,
+        "duration" : 10057
+      }
+    }, {
+      "uid" : "5fdb7cc67ff4fa11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651562187134,
+        "stop" : 1651562197177,
+        "duration" : 10043
+      }
+    }, {
+      "uid" : "7360a11c04bb7e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651561155787,
+        "stop" : 1651561165857,
+        "duration" : 10070
+      }
+    }, {
+      "uid" : "b421bd8e464e0ce1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651556342451,
+        "stop" : 1651556357549,
+        "duration" : 15098
+      }
+    }, {
+      "uid" : "e6ec69daf87bd010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651555321562,
+        "stop" : 1651555336659,
+        "duration" : 15097
+      }
+    }, {
+      "uid" : "4ff8a43e43683e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651555243658,
+        "stop" : 1651555253760,
+        "duration" : 10102
+      }
+    }, {
+      "uid" : "55f773b8b8ebe6c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651555093497,
+        "stop" : 1651555098622,
+        "duration" : 5125
+      }
+    }, {
+      "uid" : "c4e09b612363f3b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651555044015,
+        "stop" : 1651555051230,
+        "duration" : 7215
+      }
+    }, {
+      "uid" : "1a708c87a4630139",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651554866223,
+        "stop" : 1651554871364,
+        "duration" : 5141
+      }
+    }, {
+      "uid" : "8c61f584e54fc71d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651554801696,
+        "stop" : 1651554806788,
+        "duration" : 5092
+      }
+    }, {
+      "uid" : "fcaa561dea4b1f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651554705223,
+        "stop" : 1651554710328,
+        "duration" : 5105
+      }
+    }, {
+      "uid" : "79dbedebb89568c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651554553540,
+        "stop" : 1651554558671,
+        "duration" : 5131
+      }
+    }, {
+      "uid" : "d6831a6daf72fe6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651518745638,
+        "stop" : 1651518751005,
+        "duration" : 5367
+      }
+    }, {
+      "uid" : "5089e3fced221f05",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651518461683,
+        "stop" : 1651518476786,
+        "duration" : 15103
+      }
+    }, {
+      "uid" : "b057cd13f3b684b9",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"=Dresses\" because element wasn't found",
+      "time" : {
+        "start" : 1651518324376,
+        "stop" : 1651518336609,
+        "duration" : 12233
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4dcc6056c3c4355e.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

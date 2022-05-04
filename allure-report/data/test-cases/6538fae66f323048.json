@@ -1,0 +1,147 @@
+{
+  "uid" : "6538fae66f323048",
+  "name" : "When i click on proceed to checkout button",
+  "fullName" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct.When i click on proceed to checkout button",
+  "historyId" : "657dcc3dd925b7f6f5cde869a5123dab",
+  "time" : {
+    "start" : 1651581001859,
+    "stop" : 1651581015254,
+    "duration" : 13395
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651581002869,
+        "stop" : 1651581002950,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "696cef2f18ffe99e",
+        "name" : "Request",
+        "source" : "696cef2f18ffe99e.json",
+        "type" : "application/json",
+        "size" : 89
+      }, {
+        "uid" : "e235e8e15067cf70",
+        "name" : "Response",
+        "source" : "e235e8e15067cf70.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/55b81733-72ee-4f89-8191-3a1a440f9848/click",
+      "time" : {
+        "start" : 1651581002956,
+        "stop" : 1651581015251,
+        "duration" : 12295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i click on proceed to checkout button"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7a4dfedd07a1a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651579069831,
+        "stop" : 1651579076028,
+        "duration" : 6197
+      }
+    }, {
+      "uid" : "dc3cc840cf7c2e72",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651578996510,
+        "stop" : 0,
+        "duration" : -1651578996510
+      }
+    }, {
+      "uid" : "77d04417721ad30e",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \".btn btn-default button button-medium\" because element wasn't found",
+      "time" : {
+        "start" : 1651578853579,
+        "stop" : 1651578864683,
+        "duration" : 11104
+      }
+    }, {
+      "uid" : "8674faede648063d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651578602424,
+        "stop" : 1651578602475,
+        "duration" : 51
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6538fae66f323048.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

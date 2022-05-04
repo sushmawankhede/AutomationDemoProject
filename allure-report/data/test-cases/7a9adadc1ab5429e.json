@@ -1,0 +1,211 @@
+{
+  "uid" : "7a9adadc1ab5429e",
+  "name" : "When i select gender title Mrs.",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.When i select gender title Mrs.",
+  "historyId" : "c0a7678c261572f8d72a445a87591506",
+  "time" : {
+    "start" : 1651496755489,
+    "stop" : 1651496755526,
+    "duration" : 37
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651496755490,
+        "stop" : 1651496755522,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d17175fa62e67115",
+        "name" : "Request",
+        "source" : "d17175fa62e67115.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "e823ed1d12ea3190",
+        "name" : "Response",
+        "source" : "e823ed1d12ea3190.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i select gender title Mrs."
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "949c2f83291717f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489617028,
+        "stop" : 1651489617097,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "9cbd4e3cd2199209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489104023,
+        "stop" : 1651489104062,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "c7fa9a449ff6567e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489060127,
+        "stop" : 1651489060177,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "821b03030b6448dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651488475816,
+        "stop" : 1651488475867,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "60d552bcf8308b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651482700074,
+        "stop" : 1651482700123,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "b417105fba3e0d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651482482538,
+        "stop" : 1651482482584,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "5bdbbae2e6bf9031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651480150144,
+        "stop" : 1651480150178,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "dadf8850bc9f62e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651480006744,
+        "stop" : 1651480006787,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "17d830a425f67006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651479929859,
+        "stop" : 1651479929898,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "af432fb414546f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651479872686,
+        "stop" : 1651479872723,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "a49cac95e389cd64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651478072072,
+        "stop" : 1651478072110,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "69fad291d6e906bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651477972809,
+        "stop" : 1651477972855,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "e076a18214a9fb05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651477922344,
+        "stop" : 1651477922381,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "80e05fe0afbf87a7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651477805989,
+        "stop" : 0,
+        "duration" : -1651477805989
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a9adadc1ab5429e.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

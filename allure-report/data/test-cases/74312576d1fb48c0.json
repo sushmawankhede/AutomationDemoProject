@@ -1,0 +1,118 @@
+{
+  "uid" : "74312576d1fb48c0",
+  "name" : "Then I should see a header with text \"Create an account\"",
+  "fullName" : "The Automation Practice Website: As a user, I want to register to this website.Then I should see a header with text \"Create an account\"",
+  "historyId" : "ff8f50a62efbb759bd9c59418ccca8e5",
+  "time" : {
+    "start" : 1651466152944,
+    "stop" : 1651466153038,
+    "duration" : 94
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651466152950,
+        "stop" : 1651466153003,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41b1f244f8bc4bcd",
+        "name" : "Request",
+        "source" : "41b1f244f8bc4bcd.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "6fc022aea42a4c43",
+        "name" : "Response",
+        "source" : "6fc022aea42a4c43.json",
+        "type" : "application/json",
+        "size" : 1038
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1651466153027,
+        "stop" : 0,
+        "duration" : -1651466153027
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f65fafd35c915ca7",
+        "name" : "Request",
+        "source" : "f65fafd35c915ca7.json",
+        "type" : "application/json",
+        "size" : 66
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a header with text \"Create an account\""
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74312576d1fb48c0.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

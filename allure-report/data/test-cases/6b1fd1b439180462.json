@@ -1,0 +1,193 @@
+{
+  "uid" : "6b1fd1b439180462",
+  "name" : "Then i validate my email id testuser1.04.23@gmail.com is autopulated",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.Then i validate my email id testuser1.04.23@gmail.com is autopulated",
+  "historyId" : "934008d850989850487b778afb116999",
+  "time" : {
+    "start" : 1651496759373,
+    "stop" : 1651496759435,
+    "duration" : 62
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651496759374,
+        "stop" : 1651496759412,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "434f3fa26f7ff8e0",
+        "name" : "Request",
+        "source" : "434f3fa26f7ff8e0.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "f60616d19e571ac0",
+        "name" : "Response",
+        "source" : "f60616d19e571ac0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/7a03680d-3781-4bbb-9096-d95560088b5c/attribute/value",
+      "time" : {
+        "start" : 1651496759420,
+        "stop" : 1651496759433,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26d25069cf5475b6",
+        "name" : "Response",
+        "source" : "26d25069cf5475b6.json",
+        "type" : "application/json",
+        "size" : 27
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i validate my email id testuser1.04.23@gmail.com is autopulated"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb2e1dfbf5f83cec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489619546,
+        "stop" : 1651489619611,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "dab029dd83b180d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489106274,
+        "stop" : 1651489106324,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "dbc5c3660313ab89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489062923,
+        "stop" : 1651489062971,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "b0a74fdeb86eba73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651488481150,
+        "stop" : 1651488481205,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "fa812f9a25ce4670",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651482707805,
+        "stop" : 1651482707944,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "c00a8ba45b6f0c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651482491947,
+        "stop" : 1651482492004,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "329b595efcc3a184",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651480156762,
+        "stop" : 1651480156876,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "f8f85d3785dca1ec",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1651480016899,
+        "stop" : 0,
+        "duration" : -1651480016899
+      }
+    }, {
+      "uid" : "76a6e04d5813bd70",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toEqual(expected) // deep equality",
+      "time" : {
+        "start" : 1651479937073,
+        "stop" : 1651479937267,
+        "duration" : 194
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b1fd1b439180462.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

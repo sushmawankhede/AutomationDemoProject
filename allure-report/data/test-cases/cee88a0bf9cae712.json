@@ -1,0 +1,162 @@
+{
+  "uid" : "cee88a0bf9cae712",
+  "name" : "Given I open the browser and load the url \"http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation\"",
+  "fullName" : "The Automation Practice Website: As a user, I want to register to this website.Given I open the browser and load the url \"http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation\"",
+  "historyId" : "6835b81c02d1a6dde851f52cd28e347d",
+  "time" : {
+    "start" : 1651476462631,
+    "stop" : 1651476472086,
+    "duration" : 9455
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1651476462636,
+        "stop" : 1651476471927,
+        "duration" : 9291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "829dab276888e753",
+        "name" : "Request",
+        "source" : "829dab276888e753.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1651476471927,
+        "stop" : 1651476472082,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b859d5998944bc8",
+        "name" : "Response",
+        "source" : "4b859d5998944bc8.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the browser and load the url \"http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation\""
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to register to this website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5bab71173bce7688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651476406584,
+        "stop" : 1651476413884,
+        "duration" : 7300
+      }
+    }, {
+      "uid" : "e06182d3d52e433f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651476363433,
+        "stop" : 1651476378271,
+        "duration" : 14838
+      }
+    }, {
+      "uid" : "baf8f4d4d6e2fdee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651475670883,
+        "stop" : 1651475679229,
+        "duration" : 8346
+      }
+    }, {
+      "uid" : "6b528094c8880db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651475617230,
+        "stop" : 1651475625075,
+        "duration" : 7845
+      }
+    }, {
+      "uid" : "50f07e6fee5e25f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651469549136,
+        "stop" : 1651469551109,
+        "duration" : 1973
+      }
+    }, {
+      "uid" : "aa92cfc1cb035c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651469540858,
+        "stop" : 1651469548944,
+        "duration" : 8086
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cee88a0bf9cae712.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

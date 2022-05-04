@@ -1,0 +1,102 @@
+{
+  "uid" : "8e4522c314473295",
+  "name" : "And i navigate to your address section , fill out mandatory details",
+  "fullName" : "The Automation Practice Website: As a user, I want to login to this website and register.And i navigate to your address section , fill out mandatory details",
+  "historyId" : "33b947d61a25024896b54bd16a393644",
+  "time" : {
+    "start" : 1651496759673,
+    "stop" : 1651496759676,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "testMethod",
+    "value" : "And i navigate to your address section , fill out mandatory details"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to login to this website and register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3250a5c8e83de3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489619894,
+        "stop" : 1651489619896,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c1525132f1b3ae8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489106611,
+        "stop" : 1651489106613,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "462e327100c640da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651489063227,
+        "stop" : 1651489063228,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e48a73c120ab7de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651488481649,
+        "stop" : 1651488481654,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "c06bc1b8b764b47e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651482707945,
+        "stop" : 1651482707948,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e4522c314473295.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

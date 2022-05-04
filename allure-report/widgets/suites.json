@@ -1,0 +1,114 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "11cec55aa578f3474028e4f092e40c77",
+    "name" : "The Automation Practice Website: As a user , I want to  load  this Website and navigate to create account page",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 1,
+      "total" : 13
+    }
+  }, {
+    "uid" : "df1cda8911f3d0f691df08fe03a2d36e",
+    "name" : "The Automation Practice Website: As a user,i want to  login to this Website and create account",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "09b58764103ee131f5ac19327263cdf0",
+    "name" : "The Automation Practice Website: As a user, I want to create account and login to this Website",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "c7b28ce7ab498a2ce6e61c0df7ded5e5",
+    "name" : "The Automation Practice Website: As a user, I want to register to this website",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "717ccd53b14d8a4352a26017f3b801da",
+    "name" : "The Automation Practice Website: As a user,i want to create an account",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 5,
+      "total" : 10
+    }
+  }, {
+    "uid" : "f52439f78264bac651ffd147598262fb",
+    "name" : "The Automation Practice Website: As a user , I want to  login to  this Website and add ptoduct",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 1,
+      "total" : 13
+    }
+  }, {
+    "uid" : "8a1e4e8d4778ec5831c3487d993ff2e9",
+    "name" : "The Automation Practice Website: As a user,i want to  login to this Website",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "0d56e9282f10f873785bc194bbb2515d",
+    "name" : "The Automation Practice Website: As a user, I want to login to this website and register",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "764d400ea6505fa9e4286a29f3c55748",
+    "name" : "The Automation Practice Website",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fdbdc9ea7ee956858561e08f47b3a285",
+    "name" : "The Internet Guinea Pig Website: As a user, I can log into the secure area",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

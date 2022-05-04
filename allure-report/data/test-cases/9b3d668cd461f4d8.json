@@ -1,0 +1,166 @@
+{
+  "uid" : "9b3d668cd461f4d8",
+  "name" : "When i enter valid email address testuser1.04.22 in the textbox",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.When i enter valid email address testuser1.04.22 in the textbox",
+  "historyId" : "753cb9924e9545ccff2022d9515c3449",
+  "time" : {
+    "start" : 1651420606791,
+    "stop" : 1651420607091,
+    "duration" : 300
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651420606792,
+        "stop" : 1651420606832,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "263d620a1bf5107f",
+        "name" : "Request",
+        "source" : "263d620a1bf5107f.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "6776676647a528d5",
+        "name" : "Response",
+        "source" : "6776676647a528d5.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/0d84c024-2fb2-4c2e-9f35-4eecf3eddc8c/clear",
+      "time" : {
+        "start" : 1651420606867,
+        "stop" : 1651420606943,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/0d84c024-2fb2-4c2e-9f35-4eecf3eddc8c/value",
+      "time" : {
+        "start" : 1651420606961,
+        "stop" : 1651420607090,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1da68458debef3d9",
+        "name" : "Request",
+        "source" : "1da68458debef3d9.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "fe3ba419fc813680",
+      "name" : "Response",
+      "source" : "fe3ba419fc813680.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i enter valid email address testuser1.04.22 in the textbox"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3c17ddba4d0fa43a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420516373,
+        "stop" : 1651420516730,
+        "duration" : 357
+      }
+    }, {
+      "uid" : "f70a83d00d1a2b75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420041005,
+        "stop" : 1651420041272,
+        "duration" : 267
+      }
+    }, {
+      "uid" : "6f637642dd6e394",
+      "status" : "broken",
+      "statusDetails" : "Step \"i enter valid email address testuser1.04.22 in the textbox\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1651419912615,
+        "stop" : 1651419912617,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b3d668cd461f4d8.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

@@ -1,0 +1,154 @@
+{
+  "uid" : "668df902cbc00b03",
+  "name" : "Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page",
+  "historyId" : "1298de20c21517dc06049df01425ae6a",
+  "time" : {
+    "start" : 1651420853800,
+    "stop" : 1651420856756,
+    "duration" : 2956
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651420853802,
+        "stop" : 1651420856725,
+        "duration" : 2923
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "610706b948c960c7",
+        "name" : "Request",
+        "source" : "610706b948c960c7.json",
+        "type" : "application/json",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/01f10dd6-7caa-479a-996f-ce67087ba946/text",
+      "time" : {
+        "start" : 1651420856752,
+        "stop" : 0,
+        "duration" : -1651420856752
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a6dd8753c9d4a11e",
+      "name" : "Response",
+      "source" : "a6dd8753c9d4a11e.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see a header with text \"CREATE AN ACCOUNT\" displayed on current page"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e274b632c9a26ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420823736,
+        "stop" : 1651420829901,
+        "duration" : 6165
+      }
+    }, {
+      "uid" : "64e62ebf479a79f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420601096,
+        "stop" : 1651420606790,
+        "duration" : 5694
+      }
+    }, {
+      "uid" : "5fc8196a6f29a7cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420506168,
+        "stop" : 1651420516372,
+        "duration" : 10204
+      }
+    }, {
+      "uid" : "10f21e688afdfe7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420038460,
+        "stop" : 1651420041005,
+        "duration" : 2545
+      }
+    }, {
+      "uid" : "41bc2f4af2d4907f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651419909481,
+        "stop" : 1651419912614,
+        "duration" : 3133
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "668df902cbc00b03.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "85a9a528bdadf824",
+  "name" : "Given I open the browser and load the url http://automationpractice.com/index.php",
+  "fullName" : "The Automation Practice Website: As a user, I want to create account and login to this Website.Given I open the browser and load the url http://automationpractice.com/index.php",
+  "historyId" : "a0cfd7bd75cc7cc792685e10c2b8cd1a",
+  "time" : {
+    "start" : 1651326053221,
+    "stop" : 1651326053224,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I open the browser and load the url http://automationpractice.com/index.php\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I open the browser and load the url http://automationpractice.com/index.php\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\HP\\Desktop\\AutomationDemoProject\\features\\home.feature):1:1\n                \tat Scenario(As a user, I want to create account and login to this Website):3:5\n                \tat Step(I open the browser and load the url <homepage>):5:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the browser and load the url http://automationpractice.com/index.php"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user, I want to create account and login to this Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85a9a528bdadf824.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}

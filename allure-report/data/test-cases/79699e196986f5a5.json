@@ -1,0 +1,218 @@
+{
+  "uid" : "79699e196986f5a5",
+  "name" : "Given I open the browser and load the url http://automationpractice.com/index.php/",
+  "fullName" : "The Automation Practice Website: As a user,i want to  login to this Website and create account.Given I open the browser and load the url http://automationpractice.com/index.php/",
+  "historyId" : "563a4275387444e6db1891f1ba2f725a",
+  "time" : {
+    "start" : 1651420845887,
+    "stop" : 1651420853580,
+    "duration" : 7693
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1651420845892,
+        "stop" : 1651420853402,
+        "duration" : 7510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16b08e9c86605865",
+        "name" : "Request",
+        "source" : "16b08e9c86605865.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1651420853402,
+        "stop" : 1651420853575,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad734d5f05592e29",
+        "name" : "Response",
+        "source" : "ad734d5f05592e29.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testClass",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the browser and load the url http://automationpractice.com/index.php/"
+  }, {
+    "name" : "package",
+    "value" : "The Automation Practice Website: As a user,i want to  login to this Website and create account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f77ed5c4bfb0446",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420815603,
+        "stop" : 1651420823519,
+        "duration" : 7916
+      }
+    }, {
+      "uid" : "eb2ae2d712d47cea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420584496,
+        "stop" : 1651420600762,
+        "duration" : 16266
+      }
+    }, {
+      "uid" : "eee334ddbb180404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420494401,
+        "stop" : 1651420505822,
+        "duration" : 11421
+      }
+    }, {
+      "uid" : "7ef5c8c1989f8523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651420030191,
+        "stop" : 1651420038235,
+        "duration" : 8044
+      }
+    }, {
+      "uid" : "787d123d7e5b4d83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651419900379,
+        "stop" : 1651419909195,
+        "duration" : 8816
+      }
+    }, {
+      "uid" : "b46557e5e133232d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417997485,
+        "stop" : 1651418007754,
+        "duration" : 10269
+      }
+    }, {
+      "uid" : "d770a44d644787aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417921973,
+        "stop" : 1651417929651,
+        "duration" : 7678
+      }
+    }, {
+      "uid" : "c5d7708faaedc747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417688726,
+        "stop" : 1651417696673,
+        "duration" : 7947
+      }
+    }, {
+      "uid" : "f3ad50117f32ef62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651417096093,
+        "stop" : 1651417104388,
+        "duration" : 8295
+      }
+    }, {
+      "uid" : "1964048b8b1e48b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651416704699,
+        "stop" : 1651416713903,
+        "duration" : 9204
+      }
+    }, {
+      "uid" : "cfece6d49b40aef4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651415913198,
+        "stop" : 1651415924498,
+        "duration" : 11300
+      }
+    }, {
+      "uid" : "b1f745c50ea0a19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651415666085,
+        "stop" : 1651415676627,
+        "duration" : 10542
+      }
+    }, {
+      "uid" : "197d527d0e9be9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651415336060,
+        "stop" : 1651415344259,
+        "duration" : 8199
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79699e196986f5a5.json",
+  "parameterValues" : [ "chrome-101.0.4951.41" ]
+}
