@@ -20,8 +20,7 @@ When(/^i enter valid email address (.+)$/, async function (emailaddress: string)
 });
 
 When(/^i click on Create an account button$/, async function () {
-    // const submitbutton = $('[id=SubmitCreate]')
-    // submitbutton.click()
+
     await (await RegisterPage.submitbutton).click()
 });
 

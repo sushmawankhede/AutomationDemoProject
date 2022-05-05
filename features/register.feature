@@ -20,6 +20,6 @@ Feature: The Automation Practice Website
 
 
         Examples:
-            | emailaddress              | gendertitle | fname | lname  | address     | city    | state    | zip   | country       | password       | mobilenumber  | fnamelanme  |
-            | testuser1.04.25@gmail.com | Mrs.        | neha  | wadkar | park avenue | newyork | New York | 10001 | United States | TestUser@12345 | +1-9737896555 | neha wadkar |
+            | emailaddress              | gendertitle | fname | lname  | address     | city    | state    | zip   | country       | password        | mobilenumber  | fnamelanme  |
+            | testuser1.04.26@gmail.com | Mrs.        | neha  | wadkar | park avenue | newyork | New York | 10001 | United States | TsetUser@123456 | +1-9737896555 | neha wadkar |
 

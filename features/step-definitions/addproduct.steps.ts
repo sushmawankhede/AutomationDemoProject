@@ -16,19 +16,6 @@ Given(/^i log in to the website (.+) with username (.+) and password (.+)$/, asy
 
 });
 
-When(/^i click on the dresses menu$/, async function () {
-    await browser.pause(10000)
-    //await (await AddproductPage.dressmenu_val).click()
-    const dress = await $('//*[@id="block_top_menu"]/ul/li[2]/a')
-    dress.click()
-    // await browser.pause(5000)
-});
-
-Then(/^i validate dress (.+) on page$/, async function (dheader: string) {
-    await expect(AddproductPage.dressheader_val).toHaveText(dheader)
-
-});
-
 When(/^i search the dress (.+) and click on add to cart$/, async function (dress: string) {
 
 

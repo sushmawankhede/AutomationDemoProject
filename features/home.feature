@@ -15,7 +15,7 @@ Feature: The Automation Practice Website
 
 
             | homepageurl                              | headertext                  | signin                                                        | emailaddress              | heading        | account           |
-            | http://automationpractice.com/index.php/ | Automation Practice Website | http://automationpractice.com/index.php?controller=my-account | testuser1.04.25@gmail.com | AUTHENTICATION | CREATE AN ACCOUNT |
+            | http://automationpractice.com/index.php/ | Automation Practice Website | http://automationpractice.com/index.php?controller=my-account | testuser1.04.26@gmail.com | AUTHENTICATION | CREATE AN ACCOUNT |
 
 
 
