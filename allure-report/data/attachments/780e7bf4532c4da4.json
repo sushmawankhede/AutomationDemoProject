@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"center_column\"]/h1"
-}

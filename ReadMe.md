@@ -18,4 +18,13 @@ Steps to import the project in your VS code:
 
 Step to run the project :
 
-In VS code terminal run the project with command : npx wdio run test/wdio.conf.ts
+1.Run npm install - to download dependencies
+2.To run each feature file , mention the file to run under Specs(feature file) and CucuOption(Steps file) in wdio.conf.ts as shown below-
+
+under Specs section:
+ './src/features/**/home.feature'
+
+under CucuOpt section:
+    require: ['./src/steps/home.steps.ts']
+
+3.In VS code terminal run the project with command : npm test

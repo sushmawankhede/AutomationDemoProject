@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"layer_cart\"]/div[1]/div[1]/h2"
-}

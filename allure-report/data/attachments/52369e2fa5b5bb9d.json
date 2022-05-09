@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"create-account_form\"]/h3"
-}
